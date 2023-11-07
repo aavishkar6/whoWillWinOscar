@@ -9,7 +9,7 @@ from defaults import (
 )
 
 #returns the engine created above.
-def create_engine():
+def create_sql_engine():
     conn_string = 'mysql+pymysql://{user}:{password}@{host}/{db}?charset={encoding}'.format(
         host = DB_HOST,
         user = DB_USER,

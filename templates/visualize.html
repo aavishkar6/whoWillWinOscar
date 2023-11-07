@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VISUALIZE</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>year</td>
+                <td>No. of movies released</td>
+            </tr>
+            {% for year in data %}
+            <tr>
+                <td>{{ year[0] }}</td>
+                <td>{{ year[1] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+    </body>
+</html>
