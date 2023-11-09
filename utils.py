@@ -1,10 +1,14 @@
 import requests
 import json
+import os
+# from dotenv import load_dotenv
+
+# load_dotenv()
 
 def getMovie( movie ):
-
+    apiKey = os.getenv("TMDB_API")
     movies =  (requests
-    .get(f"https://api.themoviedb.org/3/search/movie?query={movie}&api_key=398b5afb4273aa1b5552a5b91071c1e6")
+    .get(f"https://api.themoviedb.org/3/search/movie?query={movie}&api_key={apiKey}")
     .json()
     )
     

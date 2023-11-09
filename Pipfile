@@ -11,6 +11,7 @@ pandas = "*"
 pymysql = "*"
 matplotlib = "*"
 requests = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
