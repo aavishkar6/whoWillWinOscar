@@ -39,7 +39,10 @@ Home
                 </div>        
             {% endfor %}
         </div>
-    
+    {% else %}
+        {% if search %}
+            <h1 class="noresult"> No results found for {{ search.capitalize() }} </h1>
+        {% endif %}
     {% endif %}
 
 {% endblock %}
