@@ -1,1 +1,25 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/homePage.css">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <header>
+        <h1>Who Will Win The Oscars</h1>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        &copy; 2023 WhoWillWinOscars
+    </footer>
+</body>
+
+</html>

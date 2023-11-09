@@ -1,0 +1,45 @@
+
+{% extends 'layouts/layout.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block head %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/search.css">
+    <!-- <script src="/static/script/homePage.js"></script> -->
+{% endblock %}
+
+{% block content %}
+    <div class="searchForm">
+        <form method="GET" action="/search">
+            <input type="text" name="movie" placeholder="Search for a movie">
+            <input type="submit" value="Search">
+    </div>
+
+    {% if movies %}
+        <h1> Search Results for {{ search.capitalize() }} </h1>
+        <div class="container">
+            {% for movie in movies %}
+                <div class="movie-card">
+                    <img class="movie-image" src="https://image.tmdb.org/t/p/original{{ movie.poster_path }}" alt="Movie Poster"/>
+                    <div class="movie-info">
+                        <h2 class="movie-title">{{ movie.title }}</h2>
+                        <p class="movie-genres">{{ movie.genre_ids }}</p>
+                        <p class="movie-release-date">Release Date: {{ movie.release_date.split('-')[0] }}</p>
+                        <p class="movie-popularity">Popularity: {{ movie.popularity }}</p>
+                        <p class="movie-description">
+                            {{ movie.overview }}
+                        </p>
+                    </div>
+                </div>        
+            {% endfor %}
+        </div>
+    
+    {% endif %}
+
+{% endblock %}

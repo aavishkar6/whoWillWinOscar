@@ -3,7 +3,13 @@ from db import (
     create_sql_engine,
     get_data
 )
+
+from utils import (
+    getMovie
+)
+
 import base64
+import json
 from io import BytesIO
 import matplotlib.pyplot as plt
 
@@ -19,33 +25,37 @@ def init_app():
 app = init_app()
 engine = create_sql_engine()
 
+#homepage route 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('components/homepage.html')
 
+#visualize route for the oscar's dataset
 @app.route('/visualize')
 def visualize():
+
     sql_query = 'SELECT year, count(*) as count FROM public.sk10189omdb_data group by year;'
     data = get_data(engine, sql_query)
-    return render_template('visualize.html', data=data.values.tolist())
+    return render_template('components/visualize.html', data=data.values.tolist())
 
-@app.route('/data_chart')
-def data_chart():
-    sql_query = 'SELECT year, count(*) as count FROM public.sk10189omdb_data group by year order by count DESC limit 10;'
-    data = get_data(engine, sql_query)
-    # print(data)
-    ax = data.plot(kind='barh',
-                   x='year',
-                   y='count',
-                   title='Time series plot of the number of movies released per year',
-                   rot=60)
-    buf = BytesIO()
-    fig = plt.savefig(buf, format='png')
+# not sure rn what to do with it
+@app.route('/prediction')
+def prediction():
+    return render_template('components/prediction.html')
 
-    data = base64.b64encode(buf.getvalue()).decode("ascii")
-    
-    return f"<img src='data:image/png;base64,{data}'/>"
+@app.route('/search', methods=['GET', 'POST'])
+def search():
+    # integrate the tmdb api to get the movies from the search.
+    args = request.args
+    movies = None
+    if "movie" in args.keys():
+        movies = getMovie(args.get('movie'))["results"]
 
+    return render_template('components/search.html', movies= movies, search = args.get('movie') )
+
+@app.route('/about')
+def about():
+    return render_template('components/about.html')
 
 
 if __name__ == '__main__':

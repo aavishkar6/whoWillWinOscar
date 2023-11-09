@@ -1,0 +1,30 @@
+{% extends 'layouts/layout.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="/static/css/homePage.css">
+    <script src="/static/script/homePage.js"></script>
+{% endblock %}
+
+
+{% block content %}
+    <a href="/visualize"><section id="visualize">
+            <h2>Visualize Oscars</h2>
+            <!-- Visualization content will go here -->
+        </section>
+    </a>
+    <a href="/prediction"> <section id="predicting">
+        <h2> Find our prediction for 2024 Oscar's</h2>
+        <!-- Prediction content will go here -->
+        </section>
+    </a>
+    <a href="/search">
+        <section id="find-movies">
+            <h2>Find Movies</h2>
+            <!-- Movie search content will go here -->
+        </section>
+    </a>
+{% endblock %}
+    
