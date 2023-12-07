@@ -23,6 +23,10 @@ cd whoWillWinOscar
 ```bash
 pipenv shell
 ```
+If you do not have pipenv installed, visit [here](https://pypi.org/project/pipenv/)
+
+You can choose not to install any virtual environments and run the project but it is not recommended to do so. If you dont want to install pipenv, skip step 3 and 4.
+
 4. Download project dependencies.
 ```bash
 pipenv install
