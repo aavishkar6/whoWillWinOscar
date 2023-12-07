@@ -14,7 +14,8 @@ from db import (
 # import utility functions
 from utils import (
     getMovie,
-    getGenreFromId
+    getGenreFromId,
+    getSimilarMovies
 )
 
 #initialize flask app
@@ -35,12 +36,20 @@ engine = create_sql_engine()
 def index():
     return render_template('components/homepage.html')
 
-#visualize route for the oscar's dataset
-@app.route('/visualize')
+#visualize route for the oscar's overall dataset.
+@app.route('/overall')
 def visualize():
-    sql_query = 'SELECT year, count(*) as count FROM public.sk10189omdb_data group by year;'
-    data = get_data(engine, sql_query)
-    return render_template('components/visualize.html', data=data.values.tolist())
+    sql_query = "SELECT distinct(category) FROM public.ag8298_oscar_general" ;
+    categories = get_data(engine, sql_query)
+    categories = categories["category"].tolist()
+    return render_template('components/overall.html', range = range(1927, 2021), categories = categories)
+
+
+# this will be the route for visualizing specific year movie.
+@app.route('/specific')
+def specific():
+    
+    return "<h1>SPECIFIC</h1>"
 
 # This will be the route for visualizing predictions that we received from the model.
 @app.route('/prediction')
@@ -61,9 +70,120 @@ def search():
     
     return render_template('components/search.html', movies= movies, search = args.get('movie') )
 
+# Search feature for movie similarity.
+@app.route('/similarity', methods=['GET', 'POST'])
+def similarity():
+    """
+        1. get the movies from the user.
+        2. get the movies info from the api or database.
+        3. feed it to the movie similarity function.
+        4. get the similar movies.
+        5. return the similar movies to the user.
+    """
+
+    return render_template('components/similarity.html')
+
+
 @app.route('/about')
 def about():
     return render_template('components/about.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# API endpoints for getting the data from the database.
+
+@app.route('/get-movie-list', methods = ['POST'])
+def getMovie():
+    movie = request.get_json()
+
+    movieList = getSimilarMovies(movie.get('selectedMovie'))
+
+
+    
+
+    return jsonify(movieList)
+
+    
+        
+
+    
+
+@app.route('/api/nominee', methods = ['GET'])
+def nominee():
+
+    category = request.args.get('category')   
+    print(category)
+
+    sql_query = f"SELECT year_awarded as year, count(distinct(film)) as count FROM public.ag8298_oscar_general where category=\"{category}\" group by year_awarded;"
+    data = get_data(engine, sql_query)
+    print(data)
+    print(type(data))
+    return data.to_json(orient='records')
+
+
+@app.route('/api/winner', methods = ['GET'])
+def winner():
+    
+    year = request.args.get('year')
+    category = request.args.get('category')
+
+    print(category)
+    print(year)
+    if (year and category):
+        sql_query = f"SELECT * FROM public.ag8298_oscar_general where year_awarded = \"{year}\" and winner =\"True\" and category=\"{category}\";"
+        data = get_data(engine, sql_query)
+        # print(data)
+        return data.to_json(orient='records')
+    
+
+@app.route('/api/best_rated_oscar_movies', methods = ['GET'])
+def best_rated_oscar_movies():
+
+    category  = request.args.get('category')
+
+    print('category is ', category)
+    if ( not category):
+        sql_query = "SELECT film, rate FROM public.ag8298_oscar_detailed where position=\"Winner\" order by rate desc limit 15;"
+        data = get_data(engine, sql_query)
+    else :
+        sql_query = f"SELECT film, rate FROM public.ag8298_oscar_detailed where position=\"{category}\" order by rate desc limit 15;"
+        data = get_data(engine, sql_query)
+
+    print(data)
+    return data.to_json(orient='records')
+
+
+@app.route('/api/highest_budget_movie', methods = ['GET'])
+def highest_budget_movie():
+    category  = request.args.get('category')
+
+    print('category is ', category)
+    if ( not category):
+        sql_query = "SELECT film, budget FROM public.ag8298_oscar_detailed where position = \"Winner\" order by budget desc limit 20;"
+        data = get_data(engine, sql_query)
+    else :
+        sql_query = f"SELECT film, budget FROM public.ag8298_oscar_detailed where position = \"{category}\" order by budget desc limit 20;"
+        data = get_data(engine, sql_query)
+
+    data = get_data(engine, sql_query)
+    print(data)
+    return data.to_json(orient='records')
+
+
+
+
+
 
 
 if __name__ == '__main__':

@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine, text
 import pandas as pd
+import numpy as np
 
 from defaults import (
     DB_USER,
@@ -25,4 +26,4 @@ def get_data(engine, sql_query):
     with engine.connect() as con:
         data = pd.read_sql(text(sql_query), con=con)
 
-    return data
+    return (data)

@@ -1,0 +1,38 @@
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    background : #333;
+}
+
+div { 
+    padding : 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight : bold;
+    width : 100%;
+    height : 100vh;
+}
+
+h1 { 
+    font-size: 40px;
+    color: #123456;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #eee;
+    padding : 20px;
+}
+
+select {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+

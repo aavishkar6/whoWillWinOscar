@@ -12,6 +12,8 @@ pymysql = "*"
 matplotlib = "*"
 requests = "*"
 python-dotenv = "*"
+python-levenshtein = "*"
+fuzzywuzzy = "*"
 
 [dev-packages]
 

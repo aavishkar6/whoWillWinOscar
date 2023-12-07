@@ -1,0 +1,564 @@
+Film,Year,Position,Edition,id_imdb,rate,rate_count,duration,genres,country,budget,gross
+Wings,1927,Winner,1,0018578,7.5,11443.0,144.0,"[' Drama', ' Romance', ' War', ' Action']",['USA'],2000000.0,746.0
+7th Heaven,1927,Nominee,1,0018379,7.6,3185.0,110.0,"[' Drama', ' Romance']",['USA'],1300000.0,
+The Racket,1927,Nominee,1,0019304,6.7,1124.0,84.0,"[' Crime', ' Drama', ' Film-Noir']",['USA'],,
+The Broadway Melody,1928,Winner,2,0019729,5.7,6478.0,100.0,"[' Drama', ' Musical', ' Romance']",['USA'],379000.0,
+Alibi,1928,Nominee,2,0019630,5.8,689.0,91.0,[' Crime'],['USA'],,
+Hollywood Revue,1928,Nominee,2,0019993,5.9,1837.0,118.0,"[' Comedy', ' Music']",['USA'],,5277780.0
+In Old Arizona,1928,Nominee,2,0020018,5.5,920.0,95.0,[' Western'],['USA'],,
+The Patriot,1928,Nominee,2,0019257,,,113.0,"[' Drama', ' History', ' Thriller']",['USA'],1000000.0,
+All Quiet on the Western Front,1929,Winner,3,0020629,8.0,57231.0,152.0,"[' Drama', ' War']",['USA'],1200000.0,
+The Big House,1929,Nominee,3,0020686,7.1,1877.0,87.0,"[' Crime', ' Drama', ' Thriller']",['USA'],414000.0,
+Disraeli,1929,Nominee,3,0019823,6.1,1048.0,90.0,"[' Biography', ' Drama', ' History']",['USA'],,
+The Divorcee,1929,Nominee,3,0020827,6.8,2770.0,84.0,"[' Romance', ' Drama']",['USA'],340691.0,
+The Love Parade,1929,Nominee,3,0020112,7.1,1966.0,107.0,"[' Comedy', ' Musical', ' Romance']",['USA'],650000.0,
+Cimarron,1930,Winner,4,0021746,5.9,5434.0,123.0,"[' Drama', ' Western']",['USA'],1433000.0,
+East Lynne,1930,Nominee,4,0021826,6.0,145.0,102.0,"[' Drama', ' Romance']",['USA'],,
+The Front Page,1930,Nominee,4,0021890,6.7,2466.0,101.0,"[' Comedy', ' Crime', ' Drama', ' Romance']",['USA'],,
+Skippy,1930,Nominee,4,0022397,6.2,686.0,85.0,"[' Comedy', ' Drama', ' Family']",['USA'],,
+Trader Horn,1930,Nominee,4,0022495,6.2,883.0,122.0,"[' Action', ' Adventure', ' Drama', ' Romance']",['USA'],1312636.0,
+Grand Hotel,1931,Winner,5,0022958,7.4,17311.0,112.0,"[' Drama', ' Romance']",['USA'],700000.0,
+Arrowsmith,1931,Nominee,5,0021622,6.2,1534.0,108.0,[' Drama'],['USA'],,
+Bad Girl,1931,Nominee,5,0021635,6.5,1104.0,90.0,"[' Drama', ' Romance']",['USA'],,
+The Champ,1931,Nominee,5,0021730,7.3,2813.0,86.0,"[' Drama', ' Sport']",['USA'],,
+Five Star Final,1931,Nominee,5,0021873,7.2,1807.0,89.0,"[' Crime', ' Drama']",['USA'],,
+One Hour with You,1931,Nominee,5,0023303,7.2,2131.0,78.0,"[' Comedy', ' Musical', ' Romance']",['USA'],,
+Shanghai Express,1931,Nominee,5,0023458,7.3,7539.0,82.0,"[' Adventure', ' Drama', ' Romance', ' Thriller']",['USA'],,
+The Smiling Lieutenant,1931,Nominee,5,0022074,7.2,3282.0,93.0,"[' Comedy', ' Romance', ' Musical']",['USA'],,
+Cavalcade,1932,Winner,6,0023876,5.8,4575.0,112.0,"[' Drama', ' Romance', ' War']",['USA'],1180280.0,
+42nd Street,1932,Nominee,6,0024034,7.4,10725.0,89.0,"[' Comedy', ' Musical', ' Romance']",['USA'],439000.0,1600.0
+A Farewell to Arms,1932,Nominee,6,0022879,6.5,5101.0,80.0,"[' Drama', ' Romance', ' War']",['USA'],799520.0,
+I Am a Fugitive from a Chain Gang,1932,Nominee,6,0023042,8.2,11617.0,92.0,"[' Crime', ' Drama', ' Film-Noir']",['USA'],195845.0,
+Lady for a Day,1932,Nominee,6,0024240,7.4,3772.0,96.0,"[' Comedy', ' Drama']",['USA'],,
+Little Women,1932,Nominee,6,0024264,7.2,6428.0,115.0,"[' Drama', ' Family', ' Romance', ' War']",['USA'],424000.0,
+The Private Life of Henry VIII,1932,Nominee,6,0024473,7.1,3719.0,,"[' Biography', ' Comedy', ' Drama', ' History', ' Romance']",['UK'],81600.0,
+She Done Him Wrong,1932,Nominee,6,0024548,6.3,5447.0,66.0,"[' Comedy', ' Drama', ' History', ' Musical', ' Romance']",['USA'],200000.0,
+Smilin' Through,1932,Nominee,6,0023488,6.9,1139.0,98.0,"[' Drama', ' Romance']",['USA'],851000.0,
+State Fair,1932,Nominee,6,0024610,6.8,745.0,97.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+It Happened One Night,1934,Winner,7,0025316,8.1,93762.0,105.0,"[' Comedy', ' Romance']",['USA'],325000.0,
+The Barretts of Wimpole Street,1934,Nominee,7,0024865,7.0,1628.0,109.0,"[' Biography', ' Drama', ' Romance']",['USA'],,
+Cleopatra,1934,Nominee,7,0024991,6.8,3410.0,100.0,"[' Biography', ' Drama', ' History', ' War']",['USA'],,
+Flirtation Walk,1934,Nominee,7,0025124,5.7,637.0,97.0,"[' Musical', ' Romance']",['USA'],,
+The Gay Divorcee,1934,Nominee,7,0025164,7.5,7027.0,107.0,"[' Comedy', ' Musical', ' Romance']",['USA'],520000.0,6253.0
+Here Comes the Navy,1934,Nominee,7,0025238,6.2,832.0,87.0,"[' Comedy', ' Drama', ' Romance', ' War']",['USA'],263000.0,
+The House of Rothschild,1934,Nominee,7,0025272,6.6,1013.0,88.0,"[' Biography', ' Drama', ' History', ' War']",['USA'],,
+Imitation of Life,1934,Nominee,7,0025301,7.5,4127.0,111.0,"[' Drama', ' Romance']",['USA'],,
+One Night of Love,1934,Nominee,7,0025601,5.6,521.0,84.0,"[' Music', ' Romance']",['USA'],,
+The Thin Man,1934,Nominee,7,0025878,8.0,26567.0,91.0,"[' Comedy', ' Crime', ' Mystery']",['USA'],226408.0,
+Viva Villa!,1934,Nominee,7,0025948,6.4,1175.0,115.0,"[' Biography', ' Western']",['USA'],1017400.0,
+The White Parade,1934,Nominee,7,0025986,6.7,60.0,80.0,[' Drama'],['USA'],,
+Mutiny on the Bounty,1935,Winner,8,0026752,7.7,20769.0,132.0,"[' Adventure', ' Biography', ' Drama', ' History', ' Romance']",['USA'],1950000.0,
+Alice Adams,1935,Nominee,8,0026056,6.9,3745.0,99.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+Broadway Melody of 1936,1935,Nominee,8,0026144,6.8,1535.0,101.0,"[' Musical', ' Romance']",['USA'],,
+Captain Blood,1935,Nominee,8,0026174,7.7,12946.0,119.0,"[' Action', ' Adventure']",['USA'],1200000.0,
+David Copperfield,1935,Nominee,8,0026266,7.4,3826.0,130.0,"[' Adventure', ' Drama', ' Romance']",['USA'],,
+The Informer,1935,Nominee,8,0026529,7.4,5707.0,91.0,"[' Crime', ' Drama']",['USA'],243000.0,
+The Lives of a Bengal Lancer,1935,Nominee,8,0026643,7.1,2618.0,109.0,"[' Adventure', ' Drama', ' War']",['USA'],,
+A Midsummer Night's Dream,1935,Nominee,8,0026714,6.9,3152.0,133.0,"[' Comedy', ' Fantasy', ' Romance']",['USA'],,
+Les Misérables,1935,Nominee,8,0026725,7.7,3313.0,108.0,"[' Drama', ' History', ' Romance']",['USA'],1000000.0,
+Naughty Marietta,1935,Nominee,8,0026768,6.7,1180.0,105.0,"[' Drama', ' Musical', ' Romance']",['USA'],,
+Ruggles of Red Gap,1935,Nominee,8,0026955,7.6,3655.0,90.0,"[' Comedy', ' Romance']",['USA'],,
+Top Hat,1935,Nominee,8,0027125,7.7,17459.0,101.0,"[' Comedy', ' Musical', ' Romance']",['USA'],609000.0,
+The Great Ziegfeld,1936,Winner,9,0027698,6.7,7204.0,176.0,"[' Biography', ' Drama', ' Musical', ' Romance']",['USA'],,
+Anthony Adverse,1936,Nominee,9,0027300,6.3,1608.0,141.0,"[' Adventure', ' Drama', ' Romance']",['USA'],1050500.0,
+Dodsworth,1936,Nominee,9,0027532,7.8,8175.0,101.0,"[' Drama', ' Romance']",['USA'],,
+Libeled Lady,1936,Nominee,9,0027884,7.9,7048.0,98.0,"[' Comedy', ' Romance']",['USA'],,
+Mr. Deeds Goes to Town,1936,Nominee,9,0027996,7.9,19710.0,115.0,"[' Comedy', ' Drama', ' Romance']",['USA'],800000.0,
+Romeo and Juliet,1936,Nominee,9,0028203,6.5,1746.0,125.0,"[' Drama', ' Romance']",['USA'],,
+San Francisco,1936,Nominee,9,0028216,7.2,4856.0,115.0,"[' Drama', ' Musical', ' Romance']",['USA'],1300000.0,
+The Story of Louis Pasteur,1936,Nominee,9,0028313,7.3,2298.0,86.0,"[' Biography', ' Drama', ' History']",['USA'],,
+A Tale of Two Cities,1936,Nominee,9,0027075,7.8,5128.0,128.0,"[' Drama', ' History', ' Romance']",['USA'],,
+Three Smart Girls,1936,Nominee,9,0028373,6.7,1250.0,84.0,"[' Comedy', ' Musical', ' Romance']",['USA'],326000.0,
+The Life of Emile Zola,1937,Winner,10,0029146,7.2,7122.0,116.0,"[' Biography', ' Drama']",['USA'],,
+The Awful Truth,1937,Nominee,10,0028597,7.7,17751.0,90.0,"[' Comedy', ' Romance']",['USA'],600000.0,
+Captains Courageous,1937,Nominee,10,0028691,8.0,8707.0,117.0,"[' Adventure', ' Drama', ' Family']",['USA'],1645000.0,
+Dead End,1937,Nominee,10,0028773,7.3,6513.0,93.0,"[' Crime', ' Drama', ' Film-Noir', ' Romance']",['USA'],300000.0,
+The Good Earth,1937,Nominee,10,0028944,7.5,4495.0,138.0,"[' Drama', ' Romance']",['USA'],2800000.0,
+In Old Chicago,1937,Nominee,10,0029047,6.8,2085.0,95.0,"[' Action', ' Drama', ' Musical', ' Romance']",['USA'],1800000.0,
+Lost Horizon,1937,Nominee,10,0029162,7.7,11990.0,132.0,"[' Adventure', ' Drama', ' Fantasy', ' Mystery']",['USA'],4000000.0,
+One Hundred Men and a Girl,1937,Nominee,10,0029347,6.7,934.0,84.0,"[' Comedy', ' Drama', ' Music']",['USA'],762000.0,
+Stage Door,1937,Nominee,10,0029604,7.7,7522.0,92.0,"[' Comedy', ' Drama']",['USA'],952000.0,8835.0
+A Star Is Born,1937,Nominee,10,0029606,7.3,8730.0,111.0,"[' Drama', ' Romance']",['USA'],1173639.0,
+You Can't Take It with You,1938,Winner,11,0030993,7.9,23300.0,126.0,"[' Comedy', ' Drama', ' Romance']",['USA'],1644736.0,
+The Adventures of Robin Hood,1938,Nominee,11,0029843,7.9,47102.0,102.0,"[' Action', ' Adventure', ' Romance']",['USA'],1900000.0,
+Alexander's Ragtime Band,1938,Nominee,11,0029852,6.9,1890.0,106.0,"[' Drama', ' Music', ' Musical', ' Romance']",['USA'],2000000.0,
+Boys Town,1938,Nominee,11,0029942,7.3,5149.0,96.0,"[' Biography', ' Drama']",['USA'],,
+The Citadel,1938,Nominee,11,0029995,7.1,1912.0,110.0,[' Drama'],['UK'],,
+Four Daughters,1938,Nominee,11,0030149,6.9,1697.0,90.0,"[' Drama', ' Music', ' Romance']",['USA'],,
+Grand Illusion,1938,Nominee,11,0028950,8.1,33770.0,113.0,"[' Drama', ' War']",['France'],,19821.0
+Jezebel,1938,Nominee,11,0030287,7.5,12006.0,104.0,"[' Drama', ' Romance']",['USA'],1250000.0,
+Pygmalion,1938,Nominee,11,0030637,7.7,7870.0,96.0,"[' Comedy', ' Drama', ' Romance']",['UK'],118320.0,
+Test Pilot,1938,Nominee,11,0030848,6.9,2075.0,119.0,"[' Drama', ' Romance']",['USA'],,
+Gone with the Wind,1939,Winner,12,0031381,8.1,289548.0,238.0,"[' Drama', ' History', ' Romance', ' War']",['USA'],3977000.0,400176459.0
+Dark Victory,1939,Nominee,12,0031210,7.5,9979.0,104.0,"[' Drama', ' Romance']",['USA'],,
+"Goodbye, Mr. Chips",1939,Nominee,12,0031385,7.9,9726.0,114.0,"[' Drama', ' Romance']",['UK'],,
+Love Affair,1939,Nominee,12,0031593,7.4,4486.0,88.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+Mr. Smith Goes to Washington,1939,Nominee,12,0031679,8.1,106797.0,129.0,"[' Comedy', ' Drama']",['USA'],1900000.0,144738.0
+Ninotchka,1939,Nominee,12,0031725,7.9,18934.0,110.0,"[' Comedy', ' Romance']",['USA'],1365000.0,
+Of Mice and Men,1939,Nominee,12,0031742,7.9,5464.0,106.0,"[' Adventure', ' Drama']",['USA'],,
+Stagecoach,1939,Nominee,12,0031971,7.8,43498.0,96.0,"[' Adventure', ' Drama', ' Western']",['USA'],392000.0,
+The Wizard of Oz,1939,Nominee,12,0032138,8.0,371055.0,102.0,"[' Adventure', ' Family', ' Fantasy', ' Musical']",['USA'],2777000.0,24821666.0
+Wuthering Heights,1939,Nominee,12,0032145,7.6,16397.0,104.0,"[' Drama', ' Romance']",['USA'],,624643.0
+Rebecca,1940,Winner,13,0032976,8.1,123677.0,130.0,"[' Drama', ' Mystery', ' Romance', ' Thriller']",['USA'],1288000.0,72275.0
+"All This, and Heaven Too",1940,Nominee,13,0032194,7.5,4351.0,141.0,"[' Drama', ' Romance']",['USA'],1370000.0,
+Foreign Correspondent,1940,Nominee,13,0032484,7.5,18440.0,120.0,"[' Action', ' Romance', ' Thriller', ' War']",['USA'],1500000.0,623.0
+The Grapes of Wrath,1940,Nominee,13,0032551,8.0,85496.0,129.0,"[' Drama', ' History']",['USA'],800000.0,
+The Great Dictator,1940,Nominee,13,0032553,8.4,202679.0,125.0,"[' Comedy', ' Drama', ' War']",['USA'],2000000.0,969879.0
+Kitty Foyle,1940,Nominee,13,0032671,7.0,3194.0,108.0,"[' Drama', ' Romance']",['USA'],,
+The Letter,1940,Nominee,13,0032701,7.6,11703.0,95.0,"[' Crime', ' Drama', ' Film-Noir', ' Mystery', ' Romance']",['USA'],,16455.0
+The Long Voyage Home,1940,Nominee,13,0032728,7.0,3887.0,105.0,"[' Drama', ' War']",['USA'],682495.0,
+Our Town,1940,Nominee,13,0032881,6.6,2331.0,90.0,"[' Drama', ' Romance']",['USA'],,
+The Philadelphia Story,1940,Nominee,13,0032904,7.9,63385.0,112.0,"[' Comedy', ' Romance']",['USA'],,411663.0
+How Green Was My Valley,1941,Winner,14,0033729,7.7,21326.0,118.0,"[' Drama', ' Family']",['USA'],1250000.0,
+Blossoms in the Dust,1941,Nominee,14,0033407,6.9,1789.0,99.0,"[' Biography', ' Drama', ' Romance']",['USA'],,
+Citizen Kane,1941,Nominee,14,0033467,8.3,402331.0,119.0,"[' Drama', ' Mystery']",['USA'],839727.0,1600719.0
+Here Comes Mr. Jordan,1941,Nominee,14,0033712,7.6,5841.0,94.0,"[' Comedy', ' Fantasy', ' Romance']",['USA'],,
+Hold Back the Dawn,1941,Nominee,14,0033722,7.4,1955.0,116.0,"[' Drama', ' Romance']",['USA'],,
+The Little Foxes,1941,Nominee,14,0033836,8.0,10451.0,116.0,"[' Drama', ' Romance']",['USA'],,
+The Maltese Falcon,1941,Nominee,14,0033870,8.0,148690.0,100.0,"[' Film-Noir', ' Mystery']",['USA'],375000.0,1255.0
+One Foot in Heaven,1941,Nominee,14,0033980,6.8,1108.0,108.0,"[' Biography', ' Drama']",['USA'],,
+Sergeant York,1941,Nominee,14,0034167,7.7,15371.0,134.0,"[' Biography', ' Drama', ' History', ' Romance', ' War']",['USA'],1400000.0,16364924.0
+Suspicion,1941,Nominee,14,0034248,7.4,32722.0,99.0,"[' Film-Noir', ' Mystery', ' Thriller']",['USA'],1103000.0,
+Mrs. Miniver,1942,Winner,15,0035093,7.6,15899.0,134.0,"[' Drama', ' Romance', ' War']",['USA'],1344000.0,
+49th Parallel,1942,Nominee,15,0033627,7.3,5935.0,123.0,"[' Drama', ' Thriller', ' War']","['UK', 'Canada']",179520.0,
+Kings Row,1942,Nominee,15,0034946,7.5,4044.0,127.0,"[' Drama', ' Mystery', ' Romance']",['USA'],,5093000.0
+The Magnificent Ambersons,1942,Nominee,15,0035015,7.7,22564.0,88.0,"[' Drama', ' Romance']",['USA'],850000.0,
+The Pied Piper,1942,Nominee,15,0035189,7.1,485.0,87.0,"[' Drama', ' War']",['USA'],,
+The Pride of the Yankees,1942,Nominee,15,0035211,7.7,9864.0,128.0,"[' Biography', ' Drama', ' Romance', ' Sport']",['USA'],,
+Random Harvest,1942,Nominee,15,0035238,8.0,6937.0,126.0,"[' Adventure', ' Drama', ' Family', ' Romance']",['USA'],1210000.0,
+The Talk of the Town,1942,Nominee,15,0035417,7.5,7430.0,118.0,"[' Comedy', ' Drama', ' Romance', ' Thriller']",['USA'],1000000.0,
+Wake Island,1942,Nominee,15,0035530,6.8,1773.0,88.0,"[' Action', ' Drama', ' War']",['USA'],826061.0,
+Yankee Doodle Dandy,1942,Nominee,15,0035575,7.7,14087.0,126.0,"[' Biography', ' Drama', ' Music', ' Musical']",['USA'],,
+Casablanca,1943,Winner,16,0034583,8.5,521056.0,102.0,"[' Drama', ' Romance', ' War']",['USA'],950000.0,4376287.0
+For Whom the Bell Tolls,1943,Nominee,16,0035896,6.9,8372.0,170.0,"[' Adventure', ' Drama', ' History', ' Romance', ' War']",['USA'],3000000.0,
+Heaven Can Wait,1943,Nominee,16,0035979,7.5,9633.0,112.0,"[' Comedy', ' Drama', ' Fantasy', ' Romance']",['USA'],,
+The Human Comedy,1943,Nominee,16,0036022,7.0,1902.0,117.0,"[' Comedy', ' Drama', ' Family']",['USA'],,
+In Which We Serve,1943,Nominee,16,0034891,7.2,5167.0,115.0,"[' Drama', ' War']",['UK'],326400.0,
+Madame Curie,1943,Nominee,16,0036126,7.2,2589.0,124.0,"[' Biography', ' Drama', ' Romance']",['USA'],,
+The More the Merrier,1943,Nominee,16,0036172,7.7,5987.0,,"[' Comedy', ' Romance', ' War']",['USA'],,
+The Ox-Bow Incident,1943,Nominee,16,0036244,8.0,20832.0,75.0,"[' Drama', ' Western']",['USA'],565000.0,
+The Song of Bernadette,1943,Nominee,16,0036377,7.6,6194.0,156.0,"[' Biography', ' Drama']",['USA'],2000000.0,
+Watch on the Rhine,1943,Nominee,16,0036515,7.3,3872.0,114.0,[' Drama'],['USA'],,
+Going My Way,1944,Winner,17,0036872,7.0,10580.0,126.0,"[' Comedy', ' Drama', ' Music']",['USA'],,
+Double Indemnity,1944,Nominee,17,0036775,8.3,143203.0,107.0,"[' Crime', ' Drama', ' Film-Noir', ' Mystery', ' Thriller']",['USA'],927262.0,13886.0
+Gaslight,1944,Nominee,17,0036855,7.8,24564.0,114.0,"[' Crime', ' Drama', ' Mystery', ' Thriller']",['USA'],,
+Since You Went Away,1944,Nominee,17,0037280,7.5,4222.0,130.0,"[' Drama', ' Romance', ' War']",['USA'],3257000.0,
+Wilson,1944,Nominee,17,0037465,6.4,1431.0,154.0,"[' Biography', ' Drama', ' History', ' Music', ' Romance']",['USA'],4000000.0,
+The Lost Weekend,1945,Winner,18,0037884,7.9,33483.0,101.0,"[' Drama', ' Film-Noir']",['USA'],1250000.0,
+Anchors Aweigh,1945,Nominee,18,0037514,7.1,7856.0,140.0,"[' Comedy', ' Fantasy', ' Music', ' Musical', ' Romance', ' War']",['USA'],,
+The Bells of St. Mary's,1945,Nominee,18,0037536,7.3,7174.0,126.0,[' Drama'],['USA'],,21333333.0
+Mildred Pierce,1945,Nominee,18,0037913,8.0,22739.0,111.0,"[' Crime', ' Drama', ' Film-Noir', ' Mystery', ' Romance']",['USA'],1453000.0,10128.0
+Spellbound,1945,Nominee,18,0038109,7.6,43403.0,111.0,"[' Film-Noir', ' Mystery', ' Romance', ' Thriller']",['USA'],1696377.0,19000.0
+The Best Years of Our Lives,1946,Winner,19,0036868,8.0,57184.0,170.0,"[' Drama', ' Romance', ' War']",['USA'],2100000.0,23656620.0
+Henry V,1946,Nominee,19,0036910,7.1,5761.0,137.0,"[' Biography', ' Drama', ' History', ' War']",['UK'],646000.0,62619.0
+It's a Wonderful Life,1946,Nominee,19,0038650,8.6,404742.0,130.0,"[' Drama', ' Family', ' Fantasy']",['USA'],3180000.0,6184298.0
+The Razor's Edge,1946,Nominee,19,0038873,7.4,5336.0,145.0,"[' Drama', ' Romance']",['USA'],1200000.0,
+The Yearling,1946,Nominee,19,0039111,7.2,5338.0,128.0,"[' Drama', ' Family', ' Western']",['USA'],4000000.0,
+Gentleman's Agreement,1947,Winner,20,0039416,7.2,14768.0,118.0,"[' Drama', ' Romance']",['USA'],1985000.0,
+The Bishop's Wife,1947,Nominee,20,0039190,7.6,14997.0,109.0,"[' Comedy', ' Drama', ' Fantasy', ' Romance']",['USA'],,
+Crossfire,1947,Nominee,20,0039286,7.3,7202.0,86.0,"[' Crime', ' Drama', ' Film-Noir', ' Mystery']",['USA'],250000.0,
+Great Expectations,1947,Nominee,20,0038574,7.8,22087.0,118.0,"[' Adventure', ' Drama', ' Mystery', ' Romance']",['UK'],476000.0,19329.0
+Miracle on 34th Street,1947,Nominee,20,0039628,7.9,41531.0,96.0,"[' Comedy', ' Drama', ' Family']",['USA'],,527.0
+Hamlet,1948,Winner,21,0040416,7.6,15288.0,154.0,[' Drama'],['UK'],680000.0,
+Johnny Belinda,1948,Nominee,21,0040495,7.7,4219.0,102.0,[' Drama'],['USA'],,
+The Red Shoes,1948,Nominee,21,0040725,8.1,30862.0,135.0,"[' Drama', ' Music', ' Romance']",['UK'],680000.0,30846.0
+The Snake Pit,1948,Nominee,21,0040806,7.6,6852.0,108.0,"[' Drama', ' Mystery']",['USA'],,
+The Treasure of the Sierra Madre,1948,Nominee,21,0040897,8.2,114083.0,126.0,"[' Adventure', ' Drama', ' Western']","['USA', 'Mexico']",3000000.0,5014000.0
+All the King's Men,1949,Winner,22,0041113,7.5,13295.0,110.0,"[' Drama', ' Film-Noir']",['USA'],,
+Battleground,1949,Nominee,22,0041163,7.4,6558.0,118.0,"[' Action', ' Drama', ' History', ' War']",['USA'],1631000.0,
+The Heiress,1949,Nominee,22,0041452,8.1,13802.0,115.0,"[' Drama', ' Romance']",['USA'],2600000.0,158.0
+A Letter to Three Wives,1949,Nominee,22,0041587,7.7,8484.0,103.0,"[' Drama', ' Romance']",['USA'],,14768.0
+Twelve O'Clock High,1949,Nominee,22,0041996,7.7,12163.0,132.0,"[' Drama', ' War']",['USA'],,
+All About Eve,1950,Winner,23,0042192,8.2,120326.0,138.0,[' Drama'],['USA'],1400000.0,151052.0
+Born Yesterday,1950,Nominee,23,0042276,7.6,9888.0,103.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,12000000.0
+Father of the Bride,1950,Nominee,23,0042451,7.2,10016.0,92.0,"[' Comedy', ' Romance']",['USA'],,
+King Solomon's Mines,1950,Nominee,23,0042646,6.8,5676.0,103.0,"[' Action', ' Adventure', ' Romance']",['USA'],2258000.0,
+Sunset Boulevard,1950,Nominee,23,0043014,8.4,201165.0,110.0,"[' Drama', ' Film-Noir']",['USA'],1752000.0,299645.0
+An American in Paris,1951,Winner,24,0043278,7.2,30501.0,114.0,"[' Drama', ' Musical', ' Romance']",['USA'],2723903.0,272619.0
+Decision Before Dawn,1951,Nominee,24,0043459,7.2,2435.0,119.0,"[' Drama', ' War']","['USA', 'West Germany']",,
+A Place in the Sun,1951,Nominee,24,0043924,7.8,20153.0,122.0,"[' Drama', ' Romance']",['USA'],2295304.0,
+Quo Vadis,1951,Nominee,24,0043949,7.2,13616.0,171.0,"[' Biography', ' Drama', ' History', ' Romance']",['USA'],7623000.0,101486.0
+A Streetcar Named Desire,1951,Nominee,24,0044081,8.0,98982.0,122.0,[' Drama'],['USA'],1800000.0,49523.0
+The Greatest Show on Earth,1952,Winner,25,0044672,6.6,12951.0,152.0,"[' Drama', ' Family', ' Romance']",['USA'],4000000.0,36000000.0
+High Noon,1952,Nominee,25,0044706,7.9,97084.0,85.0,"[' Drama', ' Thriller', ' Western']",['USA'],730000.0,
+Ivanhoe,1952,Nominee,25,0044760,6.8,8071.0,106.0,"[' Adventure', ' Drama', ' History', ' Romance']","['UK', 'USA']",3842000.0,
+Moulin Rouge,1952,Nominee,25,0044926,7.0,4998.0,119.0,"[' Biography', ' Drama', ' Music', ' Romance']",['UK'],1500000.0,3188.0
+The Quiet Man,1952,Nominee,25,0045061,7.7,34613.0,129.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+From Here to Eternity,1953,Winner,26,0045793,7.6,43272.0,118.0,"[' Drama', ' Romance', ' War']",['USA'],1650000.0,36416.0
+Julius Caesar,1953,Nominee,26,0045943,7.3,10395.0,120.0,"[' Biography', ' Drama', ' History']",['USA'],2070000.0,10831.0
+The Robe,1953,Nominee,26,0046247,6.7,9299.0,135.0,"[' Drama', ' History']",['USA'],5000000.0,36000000.0
+Roman Holiday,1953,Nominee,26,0046250,8.0,127092.0,118.0,"[' Comedy', ' Romance']",['USA'],1500000.0,
+Shane,1953,Nominee,26,0046303,7.6,36970.0,118.0,"[' Drama', ' Western']",['USA'],3100000.0,
+On the Waterfront,1954,Winner,27,0047296,8.1,141813.0,108.0,"[' Crime', ' Drama', ' Thriller']",['USA'],910000.0,
+The Caine Mutiny,1954,Nominee,27,0046816,7.7,24318.0,124.0,"[' Drama', ' War']",['USA'],2000000.0,21750000.0
+The Country Girl,1954,Nominee,27,0046874,7.3,5425.0,104.0,"[' Drama', ' Music']",['USA'],,
+Seven Brides for Seven Brothers,1954,Nominee,27,0047472,7.4,21268.0,102.0,"[' Comedy', ' Drama', ' Musical', ' Romance', ' Western']",['USA'],2540000.0,
+Three Coins in the Fountain,1954,Nominee,27,0047580,6.3,3086.0,102.0,"[' Drama', ' Romance']",['USA'],,
+Marty,1955,Winner,28,0048356,7.7,21481.0,90.0,"[' Drama', ' Romance']",['USA'],343000.0,
+Love Is a Many-Splendored Thing,1955,Nominee,28,0048316,6.5,4439.0,102.0,"[' Biography', ' Drama', ' Romance', ' War']",['USA'],1780000.0,30330.0
+Mister Roberts,1955,Nominee,28,0048380,7.7,15306.0,123.0,"[' Comedy', ' Drama', ' War']",['USA'],,
+Picnic,1955,Nominee,28,0048491,7.1,7895.0,115.0,"[' Drama', ' Romance']",['USA'],,
+The Rose Tattoo,1955,Nominee,28,0048563,7.0,3558.0,117.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+Around the World in 80 Days,1956,Winner,29,0048960,6.8,24741.0,167.0,"[' Adventure', ' Comedy', ' Family', ' Romance']",['USA'],6000000.0,42000000.0
+Friendly Persuasion,1956,Nominee,29,0049233,7.3,6396.0,137.0,"[' Drama', ' Romance', ' War', ' Western']",['USA'],3000000.0,
+Giant,1956,Nominee,29,0049261,7.6,34005.0,201.0,"[' Drama', ' Western']",['USA'],5400000.0,32855818.0
+The King and I,1956,Nominee,29,0049408,7.4,23739.0,133.0,"[' Biography', ' Drama', ' Musical', ' Romance']",['USA'],4550000.0,65.0
+The Ten Commandments,1956,Nominee,29,0049833,7.9,63468.0,220.0,"[' Adventure', ' Drama']",['USA'],13282712.0,65500000.0
+The Bridge on the River Kwai,1957,Winner,30,0050212,8.1,203112.0,161.0,"[' Adventure', ' Drama', ' War']","['UK', 'USA']",3000000.0,27200000.0
+12 Angry Men,1957,Nominee,30,0050083,9.0,687975.0,96.0,"[' Crime', ' Drama']",['USA'],350000.0,576.0
+Peyton Place,1957,Nominee,30,0050839,7.2,5374.0,157.0,"[' Drama', ' Romance']",['USA'],,
+Sayonara,1957,Nominee,30,0050933,7.1,6089.0,147.0,"[' Drama', ' Romance']",['USA'],,
+Witness for the Prosecution,1957,Nominee,30,0051201,8.4,108555.0,116.0,"[' Crime', ' Drama', ' Mystery', ' Thriller']",['USA'],3000000.0,7693.0
+Gigi,1958,Winner,31,0051658,6.7,19582.0,115.0,"[' Comedy', ' Musical', ' Romance']",['USA'],3319355.0,
+Auntie Mame,1958,Nominee,31,0051383,7.9,10373.0,143.0,"[' Comedy', ' Drama', ' Romance']",['USA'],2240000.0,
+Cat on a Hot Tin Roof,1958,Nominee,31,0051459,8.0,44965.0,108.0,[' Drama'],['USA'],3000000.0,
+The Defiant Ones,1958,Nominee,31,0051525,7.6,13553.0,96.0,"[' Crime', ' Drama']",['USA'],778000.0,
+Separate Tables,1958,Nominee,31,0052182,7.4,6769.0,100.0,"[' Drama', ' Romance']",['USA'],,
+Ben-Hur,1959,Winner,32,0052618,8.1,219088.0,212.0,"[' Adventure', ' Drama', ' History']",['USA'],15000000.0,74427638.0
+Anatomy of a Murder,1959,Nominee,32,0052561,8.0,59736.0,161.0,"[' Crime', ' Drama', ' Mystery', ' Thriller']",['USA'],,
+The Diary of Anne Frank,1959,Nominee,32,0052738,7.4,11937.0,180.0,"[' Biography', ' Drama', ' Family', ' History', ' War']",['USA'],3800000.0,
+The Nun's Story,1959,Nominee,32,0053131,7.6,9375.0,149.0,[' Drama'],['USA'],3500000.0,
+Room at the Top,1959,Nominee,32,0053226,7.5,5396.0,117.0,"[' Drama', ' Romance']",['UK'],380800.0,
+The Apartment,1960,Winner,33,0053604,8.3,163969.0,125.0,"[' Comedy', ' Drama', ' Romance']",['USA'],3000000.0,18778454.0
+The Alamo,1960,Nominee,33,0053580,6.9,14366.0,162.0,"[' Adventure', ' Drama', ' History', ' War', ' Western']",['USA'],12000000.0,
+Elmer Gantry,1960,Nominee,33,0053793,7.8,10360.0,146.0,[' Drama'],['USA'],3000000.0,
+Sons and Lovers,1960,Nominee,33,0054326,7.1,1399.0,103.0,[' Drama'],['UK'],500000.0,
+The Sundowners,1960,Nominee,33,0054353,7.1,3769.0,133.0,"[' Adventure', ' Drama']","['UK', 'USA']",,
+West Side Story,1961,Winner,34,0055614,7.5,96832.0,153.0,"[' Crime', ' Drama', ' Musical', ' Romance']",['USA'],6000000.0,44061777.0
+Fanny,1961,Nominee,34,0054866,6.9,1943.0,134.0,"[' Drama', ' Romance']",['USA'],,
+The Guns of Navarone,1961,Nominee,34,0054953,7.5,45431.0,158.0,"[' Action', ' Adventure', ' Drama', ' War']","['UK', 'USA']",6000000.0,
+The Hustler,1961,Nominee,34,0054997,8.0,74957.0,134.0,"[' Drama', ' Sport']",['USA'],2000000.0,
+Judgment at Nuremberg,1961,Nominee,34,0055031,8.2,69295.0,179.0,"[' Drama', ' War']",['USA'],3000000.0,12180.0
+Lawrence of Arabia,1962,Winner,35,0056172,8.3,267546.0,187.0,"[' Adventure', ' Biography', ' Drama', ' History', ' War']",['UK'],15000000.0,45715757.0
+The Longest Day,1962,Nominee,35,0056197,7.8,52100.0,178.0,"[' Action', ' Drama', ' History', ' War']",['USA'],10000000.0,
+The Music Man,1962,Nominee,35,0056262,7.7,15881.0,151.0,"[' Comedy', ' Family', ' Musical', ' Romance']",['USA'],4240000.0,
+Mutiny on the Bounty,1962,Nominee,35,0056264,7.3,14932.0,178.0,"[' Adventure', ' Drama', ' History', ' Romance']",['USA'],19000000.0,
+To Kill a Mockingbird,1962,Nominee,35,0056592,8.2,293360.0,129.0,"[' Crime', ' Drama']",['USA'],2000000.0,599146.0
+Tom Jones,1963,Winner,36,0057590,6.5,11657.0,129.0,"[' Adventure', ' Comedy', ' History']",['UK'],1000000.0,
+America America,1963,Nominee,36,0056825,7.8,4875.0,174.0,[' Drama'],['USA'],,
+Cleopatra,1963,Nominee,36,0056937,7.0,29377.0,192.0,"[' Biography', ' Drama', ' History', ' Romance']","['Switzerland', 'UK', 'USA']",44000000.0,57777778.0
+How the West Was Won,1963,Nominee,36,0056085,7.1,18642.0,164.0,[' Western'],['USA'],15000000.0,76729.0
+Lilies of the Field,1963,Nominee,36,0057251,7.6,9090.0,94.0,[' Drama'],['USA'],240000.0,
+My Fair Lady,1964,Winner,37,0058385,7.8,86364.0,170.0,"[' Drama', ' Family', ' Musical', ' Romance']",['USA'],17000000.0,72632653.0
+Becket,1964,Nominee,37,0057877,7.8,13595.0,148.0,"[' Biography', ' Drama', ' History']","['UK', 'USA']",3000000.0,149327.0
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,Nominee,37,0057012,8.4,449593.0,95.0,[' Comedy'],"['UK', 'USA']",1800000.0,9443876.0
+Mary Poppins,1964,Nominee,37,0058331,7.8,157728.0,139.0,"[' Comedy', ' Family', ' Fantasy', ' Musical']",['USA'],6000000.0,103082380.0
+Zorba the Greek,1964,Nominee,37,0057831,7.7,20669.0,142.0,"[' Comedy', ' Drama']","['Greece', 'USA']",783000.0,
+The Sound of Music,1965,Winner,38,0059742,8.0,204990.0,172.0,"[' Biography', ' Drama', ' Family', ' Musical', ' Romance']",['USA'],8200000.0,159428329.0
+Darling,1965,Nominee,38,0059084,7.1,6007.0,128.0,"[' Drama', ' Romance']",['UK'],544000.0,137.0
+Doctor Zhivago,1965,Nominee,38,0059113,8.0,69770.0,197.0,"[' Drama', ' Romance', ' War']","['Italy', 'UK', 'USA']",11000000.0,111920684.0
+Ship of Fools,1965,Nominee,38,0059712,7.1,5191.0,149.0,"[' Drama', ' Romance', ' War']",['USA'],4000000.0,
+A Thousand Clowns,1965,Nominee,38,0059798,7.4,3179.0,118.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+A Man for All Seasons,1966,Winner,39,0060665,7.7,31160.0,120.0,"[' Biography', ' Drama', ' History']",['UK'],2000000.0,
+Alfie,1966,Nominee,39,0060086,7.0,13493.0,114.0,"[' Comedy', ' Drama']",['UK'],800000.0,
+"The Russians Are Coming, the Russians Are Coming",1966,Nominee,39,0060921,7.1,8021.0,126.0,"[' Comedy', ' War']",['USA'],3900000.0,
+The Sand Pebbles,1966,Nominee,39,0060934,7.6,13501.0,182.0,"[' Adventure', ' Drama', ' Romance', ' War']",['USA'],12000000.0,
+Who's Afraid of Virginia Woolf?,1966,Nominee,39,0061184,8.0,68840.0,131.0,[' Drama'],['USA'],7500000.0,28005068.0
+In the Heat of the Night,1967,Winner,40,0061811,7.9,67665.0,110.0,"[' Crime', ' Drama', ' Mystery', ' Thriller']",['USA'],2000000.0,27669.0
+Bonnie and Clyde,1967,Nominee,40,0061418,7.8,102187.0,111.0,"[' Action', ' Biography', ' Crime', ' Drama']",['USA'],2500000.0,
+Doctor Dolittle,1967,Nominee,40,0061584,6.2,8539.0,152.0,"[' Adventure', ' Comedy', ' Family', ' Fantasy', ' Musical', ' Romance']",['USA'],17000000.0,
+The Graduate,1967,Nominee,40,0061722,8.0,253307.0,106.0,"[' Comedy', ' Drama', ' Romance']",['USA'],3000000.0,105015008.0
+Guess Who's Coming to Dinner,1967,Nominee,40,0061735,7.8,39547.0,108.0,"[' Comedy', ' Drama']",['USA'],4000000.0,56666667.0
+Oliver!,1968,Winner,41,0063385,7.4,34734.0,153.0,"[' Drama', ' Family', ' Musical']",['UK'],10000000.0,
+Funny Girl,1968,Nominee,41,0062994,7.4,19755.0,151.0,"[' Biography', ' Comedy', ' Drama', ' Musical', ' Romance']",['USA'],14100000.0,52224636.0
+The Lion in Winter,1968,Nominee,41,0063227,7.9,28952.0,134.0,"[' Biography', ' Drama', ' History']","['UK', 'USA']",4000000.0,18177.0
+"Rachel, Rachel",1968,Nominee,41,0063483,7.3,3028.0,101.0,"[' Drama', ' Romance']",['USA'],700000.0,
+Romeo and Juliet,1968,Nominee,41,0063518,7.6,29363.0,138.0,"[' Drama', ' Romance']","['UK', 'Italy']",,6292.0
+Midnight Cowboy,1969,Winner,42,0064665,7.8,100866.0,113.0,[' Drama'],['USA'],3600000.0,44801177.0
+Anne of the Thousand Days,1969,Nominee,42,0064030,7.5,6683.0,145.0,"[' Biography', ' Drama', ' History']",['UK'],,
+Butch Cassidy and the Sundance Kid,1969,Nominee,42,0064115,8.0,201622.0,110.0,"[' Biography', ' Crime', ' Drama', ' Western']",['USA'],6000000.0,102310697.0
+"Hello, Dolly!",1969,Nominee,42,0064418,7.1,13561.0,146.0,"[' Adventure', ' Comedy', ' Musical', ' Romance']",['USA'],25000000.0,400881.0
+Z,1969,Nominee,42,0065234,8.3,23861.0,127.0,"[' Crime', ' Drama', ' History', ' Thriller']","['France', 'Algeria']",,83305.0
+Patton,1970,Winner,43,0066206,7.9,93664.0,172.0,"[' Biography', ' Drama', ' War']",['USA'],12000000.0,61749765.0
+Airport,1970,Nominee,43,0065377,6.6,17403.0,137.0,"[' Action', ' Drama', ' Thriller']",['USA'],10000000.0,100489151.0
+Five Easy Pieces,1970,Nominee,43,0065724,7.5,33231.0,98.0,[' Drama'],['USA'],1600000.0,
+Love Story,1970,Nominee,43,0066011,6.9,30869.0,100.0,"[' Drama', ' Romance']",['USA'],2200000.0,106550690.0
+MASH,1970,Nominee,43,0066026,7.4,67377.0,116.0,"[' Comedy', ' Drama', ' War']",['USA'],3500000.0,81600000.0
+The French Connection,1971,Winner,44,0067116,7.7,109817.0,104.0,"[' Action', ' Crime', ' Drama', ' Thriller']",['USA'],1800000.0,51700000.0
+A Clockwork Orange,1971,Nominee,44,0066921,8.3,756517.0,136.0,"[' Crime', ' Drama', ' Sci-Fi']","['UK', 'USA']",2200000.0,26904636.0
+Fiddler on the Roof,1971,Nominee,44,0067093,8.0,39379.0,181.0,"[' Drama', ' Family', ' Musical', ' Romance']",['USA'],9000000.0,10405457.0
+The Last Picture Show,1971,Nominee,44,0067328,8.0,42281.0,118.0,"[' Drama', ' Romance']",['USA'],1300000.0,29146131.0
+Nicholas and Alexandra,1971,Nominee,44,0067483,7.2,4408.0,183.0,"[' Biography', ' Drama', ' History', ' War']",['UK'],9000000.0,
+The Godfather,1972,Winner,45,0068646,9.2,1616145.0,175.0,"[' Crime', ' Drama']",['USA'],6000000.0,246120986.0
+Cabaret,1972,Nominee,45,0068327,7.8,48242.0,124.0,"[' Drama', ' Music', ' Musical']",['USA'],4600000.0,
+Deliverance,1972,Nominee,45,0068473,7.7,98596.0,109.0,"[' Adventure', ' Drama', ' Thriller']",['USA'],2000000.0,4534.0
+The Emigrants,1972,Nominee,45,0067919,8.0,5703.0,191.0,"[' Drama', ' History']",['Sweden'],,
+Sounder,1972,Nominee,45,0069303,7.6,3506.0,105.0,"[' Drama', ' Family']",['USA'],,
+The Sting,1973,Winner,46,0070735,8.3,241110.0,129.0,"[' Comedy', ' Crime', ' Drama']",['USA'],5500000.0,156000000.0
+American Graffiti,1973,Nominee,46,0069704,7.4,81673.0,110.0,"[' Comedy', ' Drama']",['USA'],777000.0,115000000.0
+Cries and Whispers,1973,Nominee,46,0069467,8.1,30111.0,91.0,[' Drama'],['Sweden'],400000.0,10595.0
+The Exorcist,1973,Nominee,46,0070047,8.0,361923.0,122.0,[' Horror'],['USA'],11000000.0,441306145.0
+A Touch of Class,1973,Nominee,46,0070819,6.5,2779.0,106.0,"[' Comedy', ' Romance']",['UK'],,
+The Godfather Part II,1974,Winner,47,0071562,9.0,1127347.0,202.0,"[' Crime', ' Drama']",['USA'],13000000.0,48035783.0
+Chinatown,1974,Nominee,47,0071315,8.1,293544.0,130.0,"[' Drama', ' Mystery', ' Thriller']",['USA'],6000000.0,29225935.0
+The Conversation,1974,Nominee,47,0071360,7.8,98298.0,113.0,"[' Drama', ' Mystery', ' Thriller']",['USA'],1600000.0,4432180.0
+Lenny,1974,Nominee,47,0071746,7.6,14656.0,111.0,"[' Biography', ' Drama']",['USA'],,
+The Towering Inferno,1974,Nominee,47,0072308,7.0,39384.0,165.0,"[' Action', ' Drama', ' Thriller']",['USA'],14000000.0,116000000.0
+One Flew Over the Cuckoo's Nest,1975,Winner,48,0073486,8.7,916122.0,133.0,[' Drama'],['USA'],3000000.0,108997629.0
+Barry Lyndon,1975,Nominee,48,0072684,8.1,149430.0,185.0,"[' Adventure', ' Drama', ' History', ' War']","['UK', 'USA']",11000000.0,198992.0
+Dog Day Afternoon,1975,Nominee,48,0072890,8.0,235212.0,125.0,"[' Biography', ' Crime', ' Drama', ' Thriller']",['USA'],1800000.0,50000000.0
+Jaws,1975,Nominee,48,0073195,8.0,542763.0,124.0,"[' Adventure', ' Thriller']",['USA'],7000000.0,470653000.0
+Nashville,1975,Nominee,48,0073440,7.7,23725.0,160.0,"[' Comedy', ' Drama', ' Music']",['USA'],2200000.0,9984123.0
+Rocky,1976,Winner,49,0075148,8.1,517469.0,120.0,"[' Drama', ' Sport']",['USA'],960000.0,117250382.0
+All the President's Men,1976,Nominee,49,0074119,8.0,102565.0,138.0,"[' Biography', ' Drama', ' History', ' Thriller']",['USA'],8500000.0,70600000.0
+Bound for Glory,1976,Nominee,49,0074235,7.3,4658.0,147.0,"[' Biography', ' Drama', ' Music']",['USA'],,
+Network,1976,Nominee,49,0074958,8.1,144647.0,121.0,[' Drama'],['USA'],3800000.0,23690757.0
+Taxi Driver,1976,Nominee,49,0075314,8.3,722801.0,114.0,"[' Crime', ' Drama']",['USA'],1300000.0,28441292.0
+Annie Hall,1977,Winner,50,0075686,8.0,251543.0,93.0,"[' Comedy', ' Romance']",['USA'],4000000.0,38287178.0
+The Goodbye Girl,1977,Nominee,50,0076095,7.4,12506.0,111.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+Julia,1977,Nominee,50,0076245,7.2,8663.0,117.0,[' Drama'],['USA'],7840000.0,20714400.0
+Star Wars,1977,Nominee,50,0076759,8.6,1229119.0,121.0,"[' Action', ' Adventure', ' Fantasy', ' Sci-Fi']","['USA', 'UK']",11000000.0,775398007.0
+The Turning Point,1977,Nominee,50,0076843,6.9,4215.0,119.0,"[' Drama', ' Romance']",['USA'],,25933445.0
+The Deer Hunter,1978,Winner,51,0077416,8.1,310775.0,183.0,"[' Drama', ' War']",['USA'],15000000.0,49074243.0
+Coming Home,1978,Nominee,51,0077362,7.3,12333.0,127.0,"[' Drama', ' Romance', ' War']",['USA'],3000000.0,32653905.0
+Heaven Can Wait,1978,Nominee,51,0077663,6.9,18639.0,101.0,"[' Comedy', ' Fantasy', ' Romance', ' Sport']","['USA', 'Canada']",,81640278.0
+Midnight Express,1978,Nominee,51,0077928,7.6,73560.0,121.0,"[' Biography', ' Crime', ' Drama', ' Thriller']","['UK', 'USA']",2300000.0,35000000.0
+An Unmarried Woman,1978,Nominee,51,0078444,7.1,4745.0,124.0,"[' Comedy', ' Drama', ' Romance']",['USA'],,
+Kramer vs. Kramer,1979,Winner,52,0079417,7.8,132993.0,105.0,[' Drama'],['USA'],8000000.0,106260000.0
+All That Jazz,1979,Nominee,52,0078754,7.9,28155.0,123.0,"[' Drama', ' Music', ' Musical']",['USA'],12000000.0,37823676.0
+Apocalypse Now,1979,Nominee,52,0078788,8.4,605137.0,147.0,"[' Drama', ' Mystery', ' War']",['USA'],31500000.0,92144505.0
+Breaking Away,1979,Nominee,52,0078902,7.7,21656.0,101.0,"[' Comedy', ' Drama', ' Romance', ' Sport']",['USA'],2300000.0,16424918.0
+Norma Rae,1979,Nominee,52,0079638,7.3,10439.0,114.0,[' Drama'],['USA'],,22228000.0
+Ordinary People,1980,Winner,53,0081283,7.7,46973.0,124.0,[' Drama'],['USA'],6000000.0,54766923.0
+Coal Miner's Daughter,1980,Nominee,53,0080549,7.5,16690.0,124.0,"[' Biography', ' Drama', ' Music']",['USA'],,67182787.0
+The Elephant Man,1980,Nominee,53,0080678,8.1,219573.0,124.0,"[' Biography', ' Drama']","['USA', 'UK']",5000000.0,26022558.0
+Raging Bull,1980,Nominee,53,0081398,8.2,321174.0,129.0,"[' Biography', ' Drama', ' Sport']",['USA'],18000000.0,23402427.0
+Tess,1980,Nominee,53,0080009,7.3,15216.0,186.0,"[' Drama', ' Romance']","['UK', 'France']",12000000.0,20101247.0
+Chariots of Fire,1981,Winner,54,0082158,7.2,54734.0,125.0,"[' Biography', ' Drama', ' Sport']",['UK'],5500000.0,59303359.0
+Atlantic City,1981,Nominee,54,0080388,7.3,15103.0,104.0,"[' Crime', ' Drama', ' Romance']","['France', 'Canada']",7200000.0,12729675.0
+On Golden Pond,1981,Nominee,54,0082846,7.6,27575.0,109.0,[' Drama'],['USA'],,119285432.0
+Raiders of the Lost Ark,1981,Nominee,54,0082971,8.4,882599.0,115.0,"[' Action', ' Adventure']","['USA', 'UK']",18000000.0,389925971.0
+Reds,1981,Nominee,54,0082979,7.3,20902.0,195.0,"[' Biography', ' Drama', ' History', ' Romance']","['USA', 'UK', 'Canada']",32000000.0,40382659.0
+Gandhi,1982,Winner,55,0083987,8.0,217441.0,191.0,"[' Biography', ' Drama', ' History']","['UK', 'India']",22000000.0,52767889.0
+E.T. the Extra-Terrestrial,1982,Nominee,55,0083866,7.8,371833.0,115.0,"[' Family', ' Sci-Fi']",['USA'],10500000.0,792910554.0
+Missing,1982,Nominee,55,0084335,7.7,18527.0,122.0,"[' Biography', ' Drama', ' History', ' Mystery', ' Thriller']","['USA', 'Mexico']",9500000.0,14000000.0
+Tootsie,1982,Nominee,55,0084805,7.4,97767.0,116.0,"[' Comedy', ' Drama', ' Romance']",['USA'],21000000.0,177200000.0
+The Verdict,1982,Nominee,55,0084855,7.7,35999.0,129.0,[' Drama'],['USA'],16000000.0,53993738.0
+Terms of Endearment,1983,Winner,56,0086425,7.4,55069.0,132.0,"[' Comedy', ' Drama']",['USA'],8000000.0,108423489.0
+The Big Chill,1983,Nominee,56,0085244,7.2,32866.0,105.0,"[' Comedy', ' Drama']",['USA'],8000000.0,56399659.0
+The Dresser,1983,Nominee,56,0085461,7.6,4822.0,118.0,[' Drama'],['UK'],1980160.0,5310748.0
+The Right Stuff,1983,Nominee,56,0086197,7.8,56166.0,193.0,"[' Adventure', ' Biography', ' Drama', ' History']",['USA'],27000000.0,21192315.0
+Tender Mercies,1983,Nominee,56,0086423,7.4,9410.0,92.0,"[' Drama', ' Music']",['USA'],,8443124.0
+Amadeus,1984,Winner,57,0086879,8.3,368344.0,160.0,"[' Biography', ' Drama', ' History', ' Music']","['USA', 'France', 'Czechoslovakia', 'Italy']",18000000.0,52066791.0
+The Killing Fields,1984,Nominee,57,0087553,7.8,51512.0,141.0,"[' Biography', ' Drama', ' History', ' War']",['UK'],14400000.0,34700291.0
+A Passage to India,1984,Nominee,57,0087892,7.3,16964.0,164.0,"[' Adventure', ' Drama', ' History']","['UK', 'USA']",16000000.0,27201487.0
+Places in the Heart,1984,Nominee,57,0087921,7.4,10277.0,111.0,[' Drama'],['USA'],,34901614.0
+A Soldier's Story,1984,Nominee,57,0088146,7.2,8862.0,101.0,"[' Crime', ' Drama', ' Mystery', ' War']",['USA'],6000000.0,21821347.0
+Out of Africa,1985,Winner,58,0089755,7.2,72638.0,161.0,"[' Biography', ' Drama', ' Romance']","['USA', 'UK']",31000000.0,227514205.0
+The Color Purple,1985,Nominee,58,0088939,7.8,78166.0,154.0,[' Drama'],['USA'],15000000.0,98467863.0
+Kiss of the Spider Woman,1985,Nominee,58,0089424,7.4,14223.0,120.0,[' Drama'],"['Brazil', 'USA']",,17009654.0
+Prizzi's Honor,1985,Nominee,58,0089841,6.7,22717.0,130.0,"[' Comedy', ' Crime', ' Drama', ' Romance']",['USA'],,26657534.0
+Witness,1985,Nominee,58,0090329,7.4,86213.0,112.0,"[' Crime', ' Drama', ' Romance', ' Thriller']",['USA'],12000000.0,68706993.0
+Platoon,1986,Winner,59,0091763,8.1,380562.0,120.0,"[' Drama', ' War']","['USA', 'UK']",6000000.0,138545632.0
+Children of a Lesser God,1986,Nominee,59,0090830,7.2,14936.0,119.0,"[' Drama', ' Romance']",['USA'],10500000.0,31853080.0
+Hannah and Her Sisters,1986,Nominee,59,0091167,7.9,67074.0,107.0,"[' Comedy', ' Drama']",['USA'],6400000.0,40084041.0
+The Mission,1986,Nominee,59,0091530,7.4,55750.0,125.0,"[' Adventure', ' Drama', ' History']","['UK', 'France']",24500000.0,17502499.0
+A Room with a View,1986,Nominee,59,0091867,7.3,39598.0,117.0,"[' Drama', ' Romance']",['UK'],3000000.0,21040317.0
+The Last Emperor,1987,Winner,60,0093389,7.7,94096.0,163.0,"[' Biography', ' Drama', ' History']","['UK', 'Italy', 'France']",31280000.0,43993508.0
+Broadcast News,1987,Nominee,60,0092699,7.2,27104.0,133.0,"[' Comedy', ' Drama', ' Romance']",['USA'],20000000.0,67331309.0
+Fatal Attraction,1987,Nominee,60,0093010,6.9,76486.0,119.0,"[' Drama', ' Thriller']",['USA'],14000000.0,320145693.0
+Hope and Glory,1987,Nominee,60,0093209,7.3,12377.0,113.0,"[' Comedy', ' Drama', ' Romance']","['UK', 'USA']",,10021120.0
+Moonstruck,1987,Nominee,60,0093565,7.1,50080.0,102.0,"[' Comedy', ' Drama', ' Romance']",['USA'],15000000.0,80640528.0
+Rain Man,1988,Winner,61,0095953,8.0,472268.0,133.0,[' Drama'],['USA'],25000000.0,354825435.0
+The Accidental Tourist,1988,Nominee,61,0094606,6.8,14762.0,121.0,"[' Drama', ' Romance']",['USA'],,32632093.0
+Dangerous Liaisons,1988,Nominee,61,0094947,7.6,64467.0,119.0,"[' Drama', ' Romance']","['USA', 'UK']",14000000.0,34670720.0
+Mississippi Burning,1988,Nominee,61,0095647,7.8,87986.0,128.0,"[' Crime', ' Drama', ' History', ' Mystery', ' Thriller']",['USA'],15000000.0,34603943.0
+Working Girl,1988,Nominee,61,0096463,6.8,51718.0,113.0,"[' Comedy', ' Drama', ' Romance']",['USA'],28000000.0,102953112.0
+Driving Miss Daisy,1989,Winner,62,0097239,7.3,99205.0,99.0,[' Drama'],['USA'],7500000.0,145793296.0
+Born on the Fourth of July,1989,Nominee,62,0096969,7.2,98267.0,145.0,"[' Biography', ' Drama', ' War']",['USA'],14000000.0,161001698.0
+Dead Poets Society,1989,Nominee,62,0097165,8.1,424092.0,128.0,"[' Comedy', ' Drama']",['USA'],16400000.0,235860116.0
+Field of Dreams,1989,Nominee,62,0097351,7.5,107880.0,107.0,"[' Drama', ' Family', ' Fantasy', ' Sport']",['USA'],,84431625.0
+My Left Foot,1989,Nominee,62,0097937,7.9,67895.0,103.0,"[' Biography', ' Drama']","['Ireland', 'UK']",816000.0,14743391.0
+Dances with Wolves,1990,Winner,63,0099348,8.0,239832.0,181.0,"[' Adventure', ' Drama', ' Western']","['USA', 'UK']",22000000.0,424208848.0
+Awakenings,1990,Nominee,63,0099077,7.8,124740.0,121.0,"[' Biography', ' Drama']",['USA'],31000000.0,52096475.0
+Ghost,1990,Nominee,63,0099653,7.1,197252.0,127.0,"[' Drama', ' Fantasy', ' Romance', ' Thriller']",['USA'],22000000.0,505703557.0
+The Godfather Part III,1990,Nominee,63,0099674,7.6,358948.0,162.0,"[' Crime', ' Drama']",['USA'],54000000.0,136766062.0
+Goodfellas,1990,Nominee,63,0099685,8.7,1018022.0,146.0,"[' Biography', ' Crime', ' Drama']",['USA'],25000000.0,46952991.0
+The Silence of the Lambs,1991,Winner,64,0102926,8.6,1267177.0,118.0,"[' Crime', ' Drama', ' Thriller']",['USA'],19000000.0,272742922.0
+Beauty and the Beast,1991,Nominee,64,0101414,8.0,416710.0,84.0,"[' Animation', ' Family', ' Fantasy', ' Musical', ' Romance']",['USA'],25000000.0,424967620.0
+Bugsy,1991,Nominee,64,0101516,6.8,26211.0,136.0,"[' Biography', ' Crime', ' Drama']",['USA'],30000000.0,49114016.0
+JFK,1991,Nominee,64,0102138,8.0,141796.0,189.0,"[' Drama', ' History', ' Thriller']","['USA', 'France']",40000000.0,205405498.0
+The Prince of Tides,1991,Nominee,64,0102713,6.8,16202.0,132.0,"[' Drama', ' Romance']",['USA'],30000000.0,74787599.0
+Unforgiven,1992,Winner,65,0105695,8.2,375151.0,130.0,"[' Drama', ' Western']",['USA'],14400000.0,159157447.0
+The Crying Game,1992,Nominee,65,0104036,7.2,50969.0,112.0,"[' Crime', ' Drama', ' Romance', ' Thriller']","['UK', 'Japan', 'USA']",3128000.0,62548947.0
+A Few Good Men,1992,Nominee,65,0104257,7.7,234838.0,138.0,"[' Drama', ' Thriller']",['USA'],41000000.0,243240178.0
+Howards End,1992,Nominee,65,0104454,7.4,28812.0,142.0,"[' Drama', ' Romance']","['UK', 'Japan', 'USA']",,26341736.0
+Scent of a Woman,1992,Nominee,65,0105323,8.0,263099.0,156.0,[' Drama'],['USA'],31000000.0,134095253.0
+Schindler's List,1993,Winner,66,0108052,8.9,1210818.0,195.0,"[' Biography', ' Drama', ' History']",['USA'],22000000.0,322161245.0
+The Fugitive,1993,Nominee,66,0106977,7.8,267238.0,130.0,"[' Action', ' Crime', ' Drama', ' Mystery', ' Thriller']",['USA'],44000000.0,368875760.0
+In the Name of the Father,1993,Nominee,66,0107207,8.1,156494.0,133.0,"[' Biography', ' Crime', ' Drama']","['Ireland', 'UK']",13000000.0,65796862.0
+The Piano,1993,Nominee,66,0107822,7.6,78878.0,121.0,"[' Drama', ' Music', ' Romance']","['New Zealand', 'Australia', 'France', 'USA']",7000000.0,40185556.0
+The Remains of the Day,1993,Nominee,66,0107943,7.8,65876.0,134.0,"[' Drama', ' Romance']","['USA', 'UK']",15000000.0,23237911.0
+Forrest Gump,1994,Winner,67,0109830,8.8,1804486.0,142.0,"[' Drama', ' Romance']",['USA'],55000000.0,678226133.0
+Four Weddings and a Funeral,1994,Nominee,67,0109831,7.1,139499.0,117.0,"[' Comedy', ' Drama', ' Romance']",['UK'],4400000.0,245700832.0
+Pulp Fiction,1994,Nominee,67,0110912,8.9,1822208.0,154.0,"[' Crime', ' Drama']",['USA'],8000000.0,213928762.0
+Quiz Show,1994,Nominee,67,0110932,7.5,64580.0,133.0,"[' Biography', ' Drama', ' History']",['USA'],31000000.0,24822619.0
+The Shawshank Redemption,1994,Nominee,67,0111161,9.3,2337357.0,142.0,[' Drama'],['USA'],25000000.0,28817291.0
+Braveheart,1995,Winner,68,0112573,8.3,957591.0,178.0,"[' Biography', ' Drama', ' History', ' War']",['USA'],72000000.0,212215441.0
+Apollo 13,1995,Nominee,68,0112384,7.6,268547.0,140.0,"[' Adventure', ' Drama', ' History']",['USA'],52000000.0,355237933.0
+Babe,1995,Nominee,68,0112431,6.8,116626.0,91.0,"[' Comedy', ' Drama', ' Family']","['Australia', 'USA']",30000000.0,254134910.0
+The Postman (Il Postino),1995,Nominee,68,0110877,7.7,33544.0,108.0,"[' Biography', ' Comedy', ' Drama', ' Romance']","['Italy', 'France', 'Belgium']",3000000.0,21898920.0
+Sense and Sensibility,1995,Nominee,68,0114388,7.6,102343.0,136.0,"[' Drama', ' Romance']","['USA', 'UK']",16000000.0,134582776.0
+The English Patient,1996,Winner,69,0116209,7.4,178398.0,162.0,"[' Drama', ' Romance', ' War']","['USA', 'UK']",27000000.0,231976425.0
+Fargo,1996,Nominee,69,0116282,8.1,616182.0,98.0,"[' Crime', ' Drama', ' Thriller']","['USA', 'UK']",7000000.0,60611975.0
+Jerry Maguire,1996,Nominee,69,0116695,7.3,242641.0,139.0,"[' Comedy', ' Drama', ' Romance', ' Sport']",['USA'],50000000.0,273552592.0
+Secrets & Lies,1996,Nominee,69,0117589,8.0,37483.0,136.0,"[' Comedy', ' Drama']","['UK', 'France']",4500000.0,13417292.0
+Shine,1996,Nominee,69,0117631,7.7,51279.0,105.0,"[' Biography', ' Drama', ' Music', ' Romance']",['Australia'],5500000.0,35999081.0
+Titanic,1997,Winner,70,0120338,7.8,1043823.0,194.0,"[' Drama', ' Romance']","['USA', 'Mexico']",200000000.0,2471751922.0
+As Good as It Gets,1997,Nominee,70,0119822,7.7,275173.0,139.0,"[' Comedy', ' Drama', ' Romance']",['USA'],50000000.0,314178011.0
+The Full Monty,1997,Nominee,70,0119164,7.2,98637.0,91.0,"[' Comedy', ' Drama']","['UK', 'USA']",3500000.0,257938649.0
+Good Will Hunting,1997,Nominee,70,0119217,8.3,859470.0,126.0,"[' Drama', ' Romance']",['USA'],10000000.0,225933435.0
+L.A. Confidential,1997,Nominee,70,0119488,8.2,530979.0,138.0,"[' Crime', ' Drama', ' Mystery', ' Thriller']",['USA'],35000000.0,126216940.0
+Shakespeare in Love,1998,Winner,71,0138097,7.1,213670.0,123.0,"[' Comedy', ' Drama', ' History', ' Romance']","['USA', 'UK']",25000000.0,289317794.0
+Elizabeth,1998,Nominee,71,0127536,7.4,92999.0,124.0,"[' Biography', ' Drama', ' History']",['UK'],30000000.0,82150642.0
+Life Is Beautiful,1998,Nominee,71,0118799,8.6,622124.0,116.0,"[' Comedy', ' Drama', ' Romance', ' War']",['Italy'],20000000.0,230098753.0
+Saving Private Ryan,1998,Nominee,71,0120815,8.6,1232963.0,169.0,"[' Drama', ' War']",['USA'],70000000.0,482349603.0
+The Thin Red Line,1998,Nominee,71,0120863,7.6,172429.0,170.0,"[' Drama', ' War']","['USA', 'Australia']",52000000.0,97877498.0
+American Beauty,1999,Winner,72,0169547,8.3,1067934.0,122.0,[' Drama'],['USA'],15000000.0,356296601.0
+The Cider House Rules,1999,Nominee,72,0124315,7.4,93110.0,126.0,"[' Drama', ' Romance']",['USA'],24000000.0,88545092.0
+The Green Mile,1999,Nominee,72,0120689,8.6,1144770.0,189.0,"[' Crime', ' Drama', ' Fantasy', ' Mystery']",['USA'],60000000.0,286801374.0
+The Insider,1999,Nominee,72,0140352,7.8,159624.0,157.0,"[' Biography', ' Drama', ' Thriller']",['USA'],90000000.0,60289912.0
+The Sixth Sense,1999,Nominee,72,0167404,8.1,910185.0,107.0,"[' Drama', ' Mystery', ' Thriller']",['USA'],40000000.0,672806292.0
+Gladiator,2000,Winner,73,0172495,8.5,1338622.0,155.0,"[' Action', ' Adventure', ' Drama']","['USA', 'UK', 'Malta', 'Morocco']",103000000.0,465363912.0
+Chocolat,2000,Nominee,73,0241303,7.2,177609.0,121.0,"[' Drama', ' Romance']","['UK', 'USA']",25000000.0,152699976.0
+"Crouching Tiger, Hidden Dragon",2000,Nominee,73,0190332,7.8,252813.0,120.0,"[' Action', ' Adventure', ' Fantasy', ' Romance']","['Taiwan', 'Hong Kong', 'USA', 'China']",17000000.0,213525736.0
+Erin Brockovich,2000,Nominee,73,0195685,7.3,174489.0,131.0,"[' Biography', ' Drama']",['USA'],52000000.0,256271286.0
+Traffic,2000,Nominee,73,0181865,7.6,195506.0,147.0,"[' Crime', ' Drama', ' Thriller']","['USA', 'Mexico', 'Germany']",48000000.0,207515725.0
+A Beautiful Mind,2001,Winner,74,0268978,8.2,847035.0,135.0,"[' Biography', ' Drama']",['USA'],58000000.0,316791257.0
+Gosford Park,2001,Nominee,74,0280707,7.2,80344.0,131.0,"[' Comedy', ' Drama', ' Mystery']","['USA', 'UK', 'Italy']",19800000.0,87754044.0
+In the Bedroom,2001,Nominee,74,0247425,7.4,37367.0,131.0,"[' Crime', ' Drama']",['USA'],1700000.0,44763181.0
+The Lord of the Rings: The Fellowship of the Ring,2001,Nominee,74,0120737,8.8,1657940.0,178.0,"[' Action', ' Adventure', ' Drama', ' Fantasy']","['New Zealand', 'USA']",93000000.0,888159092.0
+Moulin Rouge!,2001,Nominee,74,0203009,7.6,266312.0,127.0,"[' Drama', ' Musical', ' Romance']","['Australia', 'USA']",50000000.0,184935320.0
+Chicago,2002,Winner,75,0299658,7.1,215624.0,113.0,"[' Comedy', ' Crime', ' Musical']","['USA', 'Germany', 'Canada', 'UK']",45000000.0,306776732.0
+Gangs of New York,2002,Nominee,75,0217505,7.5,405022.0,167.0,"[' Crime', ' Drama']","['USA', 'Italy']",100000000.0,193772504.0
+The Hours,2002,Nominee,75,0274558,7.5,124290.0,110.0,"[' Drama', ' Romance']","['USA', 'UK', 'France', 'Canada', 'Germany']",25000000.0,108846072.0
+The Lord of the Rings: The Two Towers,2002,Nominee,75,0167261,8.7,1482526.0,179.0,"[' Action', ' Adventure', ' Drama', ' Fantasy']","['New Zealand', 'USA']",94000000.0,943396133.0
+The Pianist,2002,Nominee,75,0253474,8.5,727647.0,150.0,"[' Biography', ' Drama', ' Music', ' War']","['UK', 'France', 'Poland', 'Germany', 'USA']",35000000.0,120072577.0
+The Lord of the Rings: The Return of the King,2003,Winner,76,0167260,8.9,1639466.0,201.0,"[' Action', ' Adventure', ' Drama', ' Fantasy']","['New Zealand', 'USA']",94000000.0,1142456987.0
+Lost in Translation,2003,Nominee,76,0335266,7.7,414108.0,102.0,"[' Comedy', ' Drama']","['USA', 'Japan']",4000000.0,118686019.0
+Master and Commander: The Far Side of the World,2003,Nominee,76,0311113,7.4,201983.0,138.0,"[' Action', ' Adventure', ' Drama', ' History', ' War']",['USA'],150000000.0,211622535.0
+Mystic River,2003,Nominee,76,0327056,7.9,418696.0,138.0,"[' Crime', ' Drama', ' Mystery', ' Thriller']","['USA', 'Australia']",25000000.0,156595191.0
+Seabiscuit,2003,Nominee,76,0329575,7.3,66808.0,140.0,"[' Drama', ' History', ' Sport']",['USA'],87000000.0,148336445.0
+Million Dollar Baby,2004,Winner,77,0405159,8.1,634813.0,132.0,"[' Drama', ' Sport']",['USA'],30000000.0,216763646.0
+The Aviator,2004,Nominee,77,0338751,7.5,333743.0,170.0,"[' Biography', ' Drama']","['USA', 'Germany']",110000000.0,213719942.0
+Finding Neverland,2004,Nominee,77,0308644,7.6,198516.0,106.0,"[' Biography', ' Drama', ' Family']","['USA', 'UK']",25000000.0,116650613.0
+Ray,2004,Nominee,77,0350258,7.7,138153.0,152.0,"[' Biography', ' Drama', ' Music']",['USA'],40000000.0,123971376.0
+Sideways,2004,Nominee,77,0375063,7.5,179171.0,127.0,"[' Comedy', ' Drama', ' Romance']","['USA', 'Hungary']",16000000.0,109706931.0
+Crash,2005,Winner,78,0375679,7.7,419073.0,112.0,"[' Crime', ' Drama', ' Thriller']","['USA', 'Germany', 'Australia']",6500000.0,98410061.0
+Brokeback Mountain,2005,Nominee,78,0388795,7.7,322476.0,134.0,"[' Drama', ' Romance']","['USA', 'Canada']",14000000.0,178062759.0
+Capote,2005,Nominee,78,0379725,7.3,125150.0,114.0,"[' Biography', ' Crime', ' Drama', ' History']","['USA', 'Canada']",7000000.0,49327405.0
+"Good Night, and Good Luck",2005,Nominee,78,0433383,7.4,94053.0,93.0,"[' Biography', ' Drama', ' History']","['USA', 'France', 'UK', 'Japan']",7000000.0,54641191.0
+Munich,2005,Nominee,78,0408306,7.5,212121.0,164.0,"[' Action', ' Drama', ' History', ' Thriller']","['USA', 'Canada', 'France']",70000000.0,130982129.0
+The Departed,2006,Winner,79,0407887,8.5,1186850.0,151.0,"[' Crime', ' Drama', ' Thriller']","['USA', 'Hong Kong']",90000000.0,291465373.0
+Babel,2006,Nominee,79,0449467,7.4,289060.0,143.0,[' Drama'],"['USA', 'Mexico', 'France', 'Morocco', 'Japan']",25000000.0,135330182.0
+Letters from Iwo Jima,2006,Nominee,79,0498380,7.9,153858.0,141.0,"[' Action', ' Adventure', ' Drama', ' History', ' War']","['USA', 'Japan']",19000000.0,68673228.0
+Little Miss Sunshine,2006,Nominee,79,0449059,7.8,439166.0,101.0,"[' Comedy', ' Drama']",['USA'],8000000.0,101058954.0
+The Queen,2006,Nominee,79,0436697,7.3,104152.0,103.0,"[' Biography', ' Drama', ' History']","['UK', 'USA', 'France', 'Italy']",13328000.0,123384128.0
+No Country for Old Men,2007,Winner,80,0477348,8.1,854642.0,122.0,"[' Crime', ' Drama', ' Thriller']","['USA', 'Mexico']",25000000.0,171627166.0
+Atonement,2007,Nominee,80,0783233,7.8,250761.0,123.0,"[' Drama', ' Mystery', ' Romance', ' War']","['UK', 'France', 'USA']",30000000.0,131016624.0
+Juno,2007,Nominee,80,0467406,7.4,490779.0,96.0,"[' Comedy', ' Drama']",['USA'],7500000.0,232372681.0
+Michael Clayton,2007,Nominee,80,0465538,7.2,156252.0,119.0,"[' Crime', ' Drama', ' Mystery', ' Thriller']",['USA'],25000000.0,92991835.0
+There Will Be Blood,2007,Nominee,80,0469494,8.2,516027.0,158.0,[' Drama'],['USA'],25000000.0,76181545.0
+Slumdog Millionaire,2008,Winner,81,1010048,8.0,797756.0,120.0,"[' Drama', ' Romance']","['UK', 'USA', 'India']",15000000.0,378410113.0
+The Curious Case of Benjamin Button,2008,Nominee,81,0421715,7.8,587930.0,166.0,"[' Drama', ' Fantasy', ' Romance']",['USA'],150000000.0,335802786.0
+Frost/Nixon,2008,Nominee,81,0870111,7.7,103171.0,122.0,"[' Biography', ' Drama', ' History']","['UK', 'France', 'USA']",25000000.0,27426335.0
+Milk,2008,Nominee,81,1013753,7.5,164435.0,128.0,"[' Biography', ' Drama']",['USA'],20000000.0,54589558.0
+The Reader,2008,Nominee,81,0976051,7.6,230122.0,124.0,"[' Drama', ' Romance']","['Germany', 'USA']",32000000.0,108902486.0
+The Hurt Locker,2009,Winner,82,0887912,7.5,420864.0,131.0,"[' Drama', ' Thriller', ' War']",['USA'],15000000.0,49230772.0
+Avatar,2009,Nominee,82,0499549,7.8,1117523.0,162.0,"[' Action', ' Adventure', ' Fantasy', ' Sci-Fi']",['USA'],237000000.0,2790439092.0
+The Blind Side,2009,Nominee,82,0878804,7.6,292598.0,129.0,"[' Biography', ' Drama', ' Sport']",['USA'],29000000.0,309208309.0
+District 9,2009,Nominee,82,1136608,7.9,637598.0,112.0,"[' Action', ' Sci-Fi', ' Thriller']","['South Africa', 'USA', 'New Zealand', 'Canada']",30000000.0,210888950.0
+An Education,2009,Nominee,82,1174732,7.3,128552.0,100.0,[' Drama'],"['UK', 'USA']",7500000.0,26096852.0
+Inglourious Basterds,2009,Nominee,82,0361748,8.3,1264381.0,153.0,"[' Adventure', ' Drama', ' War']","['USA', 'Germany']",70000000.0,321455689.0
+Precious: Based on the Novel 'Push' by Sapphire,2009,Nominee,82,0929632,7.3,105490.0,110.0,[' Drama'],['USA'],10000000.0,63649529.0
+A Serious Man,2009,Nominee,82,1019452,7.0,133737.0,106.0,"[' Comedy', ' Drama']","['UK', 'France', 'USA']",7000000.0,31430334.0
+Up,2009,Nominee,82,1049413,8.2,933608.0,96.0,"[' Animation', ' Adventure', ' Comedy', ' Family']",['USA'],175000000.0,735099102.0
+Up in the Air,2009,Nominee,82,1193138,7.4,318191.0,109.0,"[' Comedy', ' Drama', ' Romance']",['USA'],25000000.0,166842739.0
+The King's Speech,2010,Winner,83,1504320,8.0,638582.0,118.0,"[' Biography', ' Drama', ' History']","['UK', 'USA', 'Australia']",15000000.0,427374317.0
+127 Hours,2010,Nominee,83,1542344,7.5,347455.0,94.0,"[' Biography', ' Drama']","['USA', 'UK', 'France']",18000000.0,60738797.0
+Black Swan,2010,Nominee,83,0947798,8.0,698468.0,108.0,"[' Drama', ' Thriller']",['USA'],13000000.0,329398046.0
+The Fighter,2010,Nominee,83,0964517,7.8,339959.0,116.0,"[' Biography', ' Drama', ' Sport']",['USA'],25000000.0,129190869.0
+Inception,2010,Nominee,83,1375666,8.8,2061995.0,148.0,"[' Action', ' Adventure', ' Sci-Fi', ' Thriller']","['USA', 'UK']",160000000.0,836836967.0
+The Kids Are All Right,2010,Nominee,83,0842926,7.0,125672.0,106.0,"[' Comedy', ' Drama', ' Romance']","['USA', 'France']",4000000.0,34758951.0
+The Social Network,2010,Nominee,83,1285016,7.7,623442.0,120.0,"[' Biography', ' Drama']",['USA'],40000000.0,224920375.0
+Toy Story 3,2010,Nominee,83,0435761,8.2,755630.0,103.0,"[' Animation', ' Adventure', ' Comedy', ' Family', ' Fantasy']",['USA'],200000000.0,1066969895.0
+True Grit,2010,Nominee,83,1403865,7.6,311259.0,110.0,"[' Drama', ' Western']",['USA'],38000000.0,252276927.0
+Winter's Bone,2010,Nominee,83,1399683,7.1,135796.0,100.0,"[' Drama', ' Mystery']",['USA'],2000000.0,13796834.0
+The Artist,2011,Winner,84,1655442,7.9,230320.0,100.0,"[' Comedy', ' Drama', ' Romance']","['France', 'Belgium', 'USA']",15000000.0,133432856.0
+The Descendants,2011,Nominee,84,1033575,7.3,232532.0,115.0,"[' Comedy', ' Drama']",['USA'],20000000.0,177243185.0
+Extremely Loud & Incredibly Close,2011,Nominee,84,0477302,6.9,97703.0,129.0,"[' Adventure', ' Drama', ' Mystery']",['USA'],40000000.0,55247881.0
+The Help,2011,Nominee,84,1454029,8.0,427583.0,146.0,[' Drama'],['USA'],25000000.0,216639112.0
+Hugo,2011,Nominee,84,0970179,7.5,304641.0,126.0,"[' Drama', ' Family', ' Fantasy', ' Mystery']","['UK', 'USA', 'France']",150000000.0,185770310.0
+Midnight in Paris,2011,Nominee,84,1605783,7.7,387367.0,96.0,"[' Comedy', ' Fantasy', ' Romance']","['Spain', 'USA', 'France']",17000000.0,153959590.0
+Moneyball,2011,Nominee,84,1210166,7.6,368445.0,133.0,"[' Biography', ' Drama', ' Sport']",['USA'],50000000.0,110206216.0
+The Tree of Life,2011,Nominee,84,0478304,6.8,167734.0,139.0,"[' Drama', ' Fantasy']",['USA'],32000000.0,58409247.0
+War Horse,2011,Nominee,84,1568911,7.2,146774.0,146.0,"[' Action', ' Adventure', ' Drama', ' History', ' War']","['USA', 'India']",66000000.0,177584879.0
+Argo,2012,Winner,85,1024648,7.7,571748.0,120.0,"[' Biography', ' Drama', ' Thriller']","['USA', 'UK']",44500000.0,232325503.0
+Amour,2012,Nominee,85,1602620,7.9,92909.0,127.0,"[' Drama', ' Romance']","['Austria', 'France', 'Germany']",8900000.0,29664140.0
+Beasts of the Southern Wild,2012,Nominee,85,2125435,7.3,80615.0,93.0,"[' Adventure', ' Drama', ' Fantasy']",['USA'],1800000.0,21107746.0
+Django Unchained,2012,Nominee,85,1853728,8.4,1354186.0,165.0,"[' Drama', ' Western']",['USA'],100000000.0,425368238.0
+Les Misérables,2012,Nominee,85,1707386,7.6,308379.0,158.0,"[' Drama', ' History', ' Musical', ' Romance', ' War']","['UK', 'USA']",61000000.0,441809770.0
+Life of Pi,2012,Nominee,85,0454876,7.9,579760.0,127.0,"[' Adventure', ' Drama', ' Fantasy']","['USA', 'Taiwan', 'UK', 'Mexico', 'Canada']",120000000.0,609016565.0
+Lincoln,2012,Nominee,85,0443272,7.3,244284.0,150.0,"[' Biography', ' Drama', ' History', ' War']","['USA', 'India']",65000000.0,275293450.0
+Silver Linings Playbook,2012,Nominee,85,1045658,7.7,660842.0,122.0,"[' Comedy', ' Drama', ' Romance']",['USA'],21000000.0,236412453.0
+Zero Dark Thirty,2012,Nominee,85,1790885,7.4,271397.0,157.0,"[' Drama', ' History', ' Thriller', ' War']","['USA', 'United Arab Emirates']",40000000.0,132820716.0
+12 Years a Slave,2013,Winner,86,2024544,8.1,639081.0,134.0,"[' Biography', ' Drama', ' History']","['USA', 'UK']",20000000.0,187733202.0
+American Hustle,2013,Nominee,86,1800241,7.2,448151.0,138.0,"[' Crime', ' Drama']","['USA', 'China']",40000000.0,251171807.0
+Captain Phillips,2013,Nominee,86,1535109,7.8,420252.0,134.0,"[' Adventure', ' Biography', ' Crime', ' Drama', ' Thriller']",['USA'],55000000.0,218791811.0
+Dallas Buyers Club,2013,Nominee,86,0790636,8.0,440464.0,117.0,"[' Biography', ' Drama']",['USA'],5000000.0,55736588.0
+Gravity,2013,Nominee,86,1454468,7.7,768174.0,91.0,"[' Drama', ' Sci-Fi', ' Thriller']","['UK', 'USA', 'Mexico']",100000000.0,723192705.0
+Her,2013,Nominee,86,1798709,8.0,539254.0,126.0,"[' Drama', ' Romance', ' Sci-Fi']",['USA'],23000000.0,48517427.0
+Nebraska,2013,Nominee,86,1821549,7.7,112137.0,115.0,"[' Adventure', ' Comedy', ' Drama']",['USA'],12000000.0,27682872.0
+Philomena,2013,Nominee,86,2431286,7.6,94033.0,98.0,"[' Biography', ' Comedy', ' Drama']","['UK', 'USA', 'France']",12000000.0,100129872.0
+The Wolf of Wall Street,2013,Nominee,86,0993846,8.2,1182123.0,180.0,"[' Biography', ' Crime', ' Drama']",['USA'],100000000.0,392000694.0
+Birdman or (The Unexpected Virtue of Ignorance),2014,Winner,87,2562232,7.7,579093.0,119.0,"[' Comedy', ' Drama']",['USA'],18000000.0,103215094.0
+American Sniper,2014,Nominee,87,2179136,7.3,438771.0,133.0,"[' Action', ' Biography', ' Drama', ' War']",['USA'],58800000.0,547426372.0
+Boyhood,2014,Nominee,87,1065073,7.9,335092.0,165.0,[' Drama'],['USA'],4000000.0,48137666.0
+The Grand Budapest Hotel,2014,Nominee,87,2278388,8.1,705744.0,99.0,"[' Adventure', ' Comedy', ' Crime']","['Germany', 'USA']",25000000.0,172940180.0
+The Imitation Game,2014,Nominee,87,2084970,8.0,683678.0,114.0,"[' Biography', ' Drama', ' Thriller', ' War']","['UK', 'USA']",14000000.0,233555708.0
+Selma,2014,Nominee,87,1020072,7.5,86167.0,128.0,"[' Biography', ' Drama', ' History']","['UK', 'USA', 'France']",20000000.0,66787908.0
+The Theory of Everything,2014,Nominee,87,2980516,7.7,403175.0,123.0,"[' Biography', ' Drama', ' Romance']","['UK', 'Japan', 'USA']",15000000.0,123726688.0
+Whiplash,2014,Nominee,87,2582802,8.5,715075.0,106.0,"[' Drama', ' Music']",['USA'],3300000.0,49396747.0
+Spotlight,2015,Winner,88,1895587,8.1,419105.0,129.0,"[' Biography', ' Crime', ' Drama']",['USA'],20000000.0,98690254.0
+The Big Short,2015,Nominee,88,1596363,7.8,360994.0,130.0,"[' Biography', ' Comedy', ' Drama', ' History']",['USA'],28000000.0,133440870.0
+Bridge of Spies,2015,Nominee,88,3682448,7.6,287049.0,142.0,"[' Drama', ' History', ' Thriller']","['USA', 'Germany', 'India']",40000000.0,165478348.0
+Brooklyn,2015,Nominee,88,2381111,7.5,130941.0,117.0,"[' Drama', ' Romance']","['UK', 'Canada', 'Ireland']",11000000.0,62076141.0
+Mad Max: Fury Road,2015,Nominee,88,1392190,8.1,880043.0,120.0,"[' Action', ' Adventure', ' Sci-Fi', ' Thriller']","['Australia', 'South Africa', 'USA']",150000000.0,375389666.0
+The Martian,2015,Nominee,88,3659388,8.0,758474.0,144.0,"[' Adventure', ' Drama', ' Sci-Fi']","['UK', 'USA', 'Hungary', 'Jordan']",108000000.0,630162235.0
+The Revenant,2015,Nominee,88,1663202,8.0,703670.0,156.0,"[' Action', ' Adventure', ' Drama', ' History', ' Western']","['USA', 'Hong Kong', 'Taiwan']",135000000.0,532950503.0
+Room,2015,Nominee,88,3170832,8.1,370169.0,118.0,"[' Drama', ' Thriller']","['Canada', 'Ireland', 'UK', 'USA']",13000000.0,35401758.0
+Moonlight,2016,Winner,89,4975722,7.4,272809.0,111.0,[' Drama'],['USA'],4000000.0,65336603.0
+Arrival,2016,Nominee,89,2543164,7.9,592536.0,116.0,"[' Drama', ' Sci-Fi']","['USA', 'Canada']",47000000.0,203388186.0
+Fences,2016,Nominee,89,2671706,7.2,97783.0,139.0,[' Drama'],"['USA', 'Canada']",24000000.0,64414761.0
+Hacksaw Ridge,2016,Nominee,89,2119532,8.1,434307.0,139.0,"[' Biography', ' Drama', ' History', ' War']","['Australia', 'USA']",40000000.0,180450918.0
+Hell or High Water,2016,Nominee,89,2582782,7.6,203651.0,102.0,"[' Action', ' Crime', ' Drama', ' Thriller', ' Western']",['USA'],12000000.0,37879877.0
+Hidden Figures,2016,Nominee,89,4846340,7.8,200198.0,127.0,"[' Biography', ' Drama', ' History']",['USA'],25000000.0,235956898.0
+La La Land,2016,Nominee,89,3783958,8.0,504125.0,128.0,"[' Comedy', ' Drama', ' Music', ' Musical', ' Romance']","['USA', 'Hong Kong']",30000000.0,449287645.0
+Lion,2016,Nominee,89,3741834,8.0,213322.0,118.0,"[' Biography', ' Drama']","['UK', 'Australia', 'USA']",12000000.0,140312928.0
+Manchester by the Sea,2016,Nominee,89,4034228,7.8,246181.0,137.0,[' Drama'],['USA'],9000000.0,78988148.0
+The Shape of Water,2017,Winner,90,5580390,7.3,369886.0,123.0,"[' Adventure', ' Drama', ' Fantasy', ' Romance', ' Sci-Fi', ' Thriller']","['USA', 'Canada', 'Mexico']",19400000.0,195333312.0
+Call Me by Your Name,2017,Nominee,90,5726616,7.9,211386.0,132.0,"[' Drama', ' Romance']","['Italy', 'France', 'USA', 'Brazil']",4840000.0,41888660.0
+Darkest Hour,2017,Nominee,90,4555426,7.4,171686.0,125.0,"[' Biography', ' Drama', ' History', ' War']","['UK', 'USA']",30000000.0,150847274.0
+Dunkirk,2017,Nominee,90,5013056,7.8,553281.0,106.0,"[' Action', ' Drama', ' History', ' Thriller', ' War']","['UK', 'Netherlands', 'France', 'USA']",100000000.0,526949403.0
+Get Out,2017,Nominee,90,5052448,7.7,491236.0,104.0,"[' Horror', ' Mystery', ' Thriller']","['USA', 'Japan']",4500000.0,255446148.0
+Lady Bird,2017,Nominee,90,4925292,7.4,240462.0,94.0,"[' Comedy', ' Drama']",['USA'],10000000.0,78965611.0
+Phantom Thread,2017,Nominee,90,5776858,7.5,111903.0,130.0,"[' Drama', ' Romance']","['USA', 'UK']",35000000.0,47756590.0
+The Post,2017,Nominee,90,6294822,7.2,135510.0,116.0,[' Drama'],"['USA', 'UK']",50000000.0,179769467.0
+"Three Billboards Outside Ebbing, Missouri",2017,Nominee,90,5027774,8.2,430452.0,115.0,"[' Comedy', ' Crime', ' Drama']","['UK', 'USA']",15000000.0,160192031.0
+Green Book,2018,Winner,91,6966692,8.2,374447.0,130.0,"[' Biography', ' Comedy', ' Drama', ' Music']","['USA', 'China']",23000000.0,321752656.0
+Black Panther,2018,Nominee,91,1825683,7.3,623682.0,134.0,"[' Action', ' Adventure', ' Sci-Fi']",['USA'],200000000.0,1347597973.0
+BlacKkKlansman,2018,Nominee,91,7349662,7.5,221961.0,135.0,"[' Biography', ' Comedy', ' Crime', ' Drama']",['USA'],15000000.0,93400823.0
+Bohemian Rhapsody,2018,Nominee,91,1727824,8.0,448781.0,134.0,"[' Biography', ' Drama', ' Music']","['UK', 'USA']",52000000.0,905234477.0
+The Favourite,2018,Nominee,91,5083738,7.5,171605.0,119.0,"[' Biography', ' Comedy', ' Drama', ' History']","['Ireland', 'UK', 'USA']",15000000.0,95918706.0
+Roma,2018,Nominee,91,6155172,7.7,139905.0,135.0,[' Drama'],"['Mexico', 'USA']",,1140769.0
+A Star Is Born,2018,Nominee,91,1517451,7.6,333071.0,136.0,"[' Drama', ' Music', ' Romance']",['USA'],36000000.0,436188866.0
+Vice,2018,Nominee,91,6266538,7.2,121358.0,132.0,"[' Biography', ' Comedy', ' Drama']",['USA'],60000000.0,76073488.0
+Parasite,2019,Winner,92,6751668,8.6,545677.0,132.0,"[' Comedy', ' Drama', ' Thriller']",['South Korea'],11400000.0,258818737.0
+Ford v Ferrari,2019,Nominee,92,1950186,8.1,288379.0,152.0,"[' Action', ' Biography', ' Drama', ' Sport']",['USA'],97600000.0,225508210.0
+The Irishman,2019,Nominee,92,1302006,7.9,322859.0,209.0,"[' Biography', ' Crime', ' Drama']",['USA'],159000000.0,968853.0
+Jojo Rabbit,2019,Nominee,92,2584384,7.9,294756.0,108.0,"[' Comedy', ' Drama', ' War']","['New Zealand', 'Czech Republic', 'USA']",14000000.0,90335025.0
+Joker,2019,Nominee,92,7286456,8.5,933010.0,122.0,"[' Crime', ' Drama', ' Thriller']","['USA', 'Canada']",55000000.0,1074251311.0
+Little Women,2019,Nominee,92,3281548,7.8,141728.0,135.0,"[' Drama', ' Romance']",['USA'],40000000.0,216601214.0
+Marriage Story,2019,Nominee,92,7653254,7.9,244940.0,137.0,"[' Comedy', ' Drama', ' Romance']","['UK', 'USA']",18600000.0,333686.0
+1917,2019,Nominee,92,8579674,8.3,420872.0,119.0,"[' Drama', ' Thriller', ' War']","['USA', 'UK', 'India', 'Spain', 'Canada', 'China']",95000000.0,384911846.0
+Once Upon a Time in Hollywood,2019,Nominee,92,7131622,7.6,547006.0,161.0,"[' Comedy', ' Drama']","['USA', 'UK', 'China']",90000000.0,374343626.0

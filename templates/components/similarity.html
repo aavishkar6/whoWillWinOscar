@@ -1,0 +1,40 @@
+{% extends 'layouts/layout.html' %}
+
+{% block title %}
+Movie similarity
+{% endblock %}
+{% block head %}
+         
+    <link rel="stylesheet" href="/static/css/similarity.css">
+
+{% endblock %}
+
+{% block content %}
+
+
+
+<!-- Search Tab for searching the movies. -->
+<div class="container">
+    <h1>Movie Similarity</h1>
+    <p>Find out how similar two movies are</p>
+    <p>How similar is</p>
+    <div class="autocomplete-container">
+        <input type="text" id="movieInput" class="movie" placeholder="Enter first movie name">
+        <div id="autocomplete-results" class="autocomplete-results"></div>
+    </div>
+    <p>and</p>
+    <div class="autocomplete-container">
+        <input type="text" id="movieInput" class="movie" placeholder="Enter second movie name">
+        <div id="autocomplete-results" class="autocomplete-results"></div>
+
+    </div>
+    <br>
+    <br>
+    <button onclick="findSimilarity()">Find similarity</button>
+</div>
+  
+    
+
+<script src="/static/script/similarity.js"></script>
+
+{% endblock %}

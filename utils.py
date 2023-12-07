@@ -1,6 +1,11 @@
 import requests
 import json
 import os
+import Levenshtein
+from fuzzywuzzy import process
+
+
+
 # from dotenv import load_dotenv
 
 # load_dotenv()
@@ -30,3 +35,14 @@ def getGenreFromId( genre_ids ):
             res.append(genre["name"])
 
     return res
+
+def getSimilarMovies( movie ):
+    with open('file.txt', 'r') as f:
+        data = f.read()
+
+    data = data.split('\n')
+
+    # movieList =  [w for w in data if Levenshtein.distance(movie, w) <= 2]
+    movieList = process.extractBests(movie, data, score_cutoff=50)
+
+    return movieList

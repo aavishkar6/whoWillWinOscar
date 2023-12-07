@@ -4,27 +4,36 @@
 Home
 {% endblock %}
 {% block head %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+        
     <link rel="stylesheet" href="/static/css/homePage.css">
-    <script src="/static/script/homePage.js"></script>
+
+
 {% endblock %}
 
 
 {% block content %}
-    <a href="/visualize"><section id="visualize">
-            <h2>Visualize Oscars</h2>
-            <!-- Visualization content will go here -->
-        </section>
-    </a>
-    <a href="/prediction"> <section id="predicting">
-        <h2> Find our prediction for 2024 Oscar's</h2>
-        <!-- Prediction content will go here -->
-        </section>
-    </a>
-    <a href="/search">
-        <section id="find-movies">
-            <h2>Find Movies</h2>
-            <!-- Movie search content will go here -->
-        </section>
-    </a>
+
+     
+    <div class="menu">
+        <h1>Who Will Win Oscars</h1>
+            
+        <a href="/overall">Oscars in Numbers and Charts</a>
+        <a href="/specific">Oscars for each year</a>
+        <a href="/search">Find Movies</a>
+        <a href="/similarity">How Similar are two Movies?</a>
+        <a href="/prediction">Find our prediction for Oscar 2024</a>
+    
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    
+    
+
+    <script src="/static/script/homePage.js"></script>
+
 {% endblock %}
     

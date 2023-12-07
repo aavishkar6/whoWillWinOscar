@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #333;
+    color: white;
+}
+.container {
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+}
+
+button:hover {
+    background: #f7f7f7;
+}
+
+@media (max-width: 600px) {
+h1 {
+    font-size: 2em;
+}
+p {
+    font-size: 1em;
+}
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+
+.autocomplete-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#movieInput {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(32, 33, 36, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+#movieInput:focus {
+    outline: none;
+    border-color: #a8a8a8;
+    box-shadow: 0 2px 4px rgba(32, 33, 36, 0.2);
+}
+
+.autocomplete-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 6px 10px rgba(32, 33, 36, 0.15);
+    overflow: hidden;
+    display: none;
+}
+
+.autocomplete-results div {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #efefef;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.autocomplete-results div:last-child {
+    border-bottom: none;
+}
+
+.autocomplete-results div:hover {
+    background-color: #e9e9e9;
+}
+
+@media only screen and (max-width: 600px) {
+#movieInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.autocomplete-results div {
+    padding: 10px;
+}
+}
