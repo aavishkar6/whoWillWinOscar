@@ -46,3 +46,18 @@ def getSimilarMovies( movie ):
     movieList = process.extractBests(movie, data, score_cutoff=50)
 
     return movieList
+
+def getAddData( imdb_id ):
+
+    url = f"https://api.themoviedb.org/3/find/tt{imdb_id}?external_source=imdb_id"
+
+    headers = {
+        "accept": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOThiNWFmYjQyNzNhYTFiNTU1MmE1YjkxMDcxYzFlNiIsInN1YiI6IjYzZjY2OGUwNjljNzBmMDA4MjIxN2FlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R2oKaK7HGt_aDFwA48zNJFIlGu61lU_eV6HHJgBhJw8"
+    }
+
+    response = requests.get(url, headers=headers)
+
+    print(response.text)
+
+    return response.json()

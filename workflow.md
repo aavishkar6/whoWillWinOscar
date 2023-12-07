@@ -31,3 +31,7 @@ Box Office Performance Pre and Post Nomination:
 Comparative Analysis of Visual and Special Effects:
 
 4. For categories like best visual effects, compare the nominees in terms of the technology used, innovation, and industry impact.
+
+## Comparative Analysis of Independent Films vs. Major Studio Films:
+
+1. Compare the performance of independent films versus those produced by major studios, in terms of nominations and wins.

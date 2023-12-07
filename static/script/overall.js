@@ -47,10 +47,11 @@ async function handleSelectChange() {
             const winnerData = await getOscarWinnerData(selectedYear, selectedCategory);
             console.log('Winner Data:', winnerData);
 
-            const winner = document.getElementById('winner');
+            const winner = document.getElementById('winnerdata');
             winner.innerHTML = '';
             
-            const val = document.createElement('h1');
+            const val = document.createElement('p');
+            val.setAttribute('class', 'pwinner');
             val.textContent = `Oscar for ${selectedCategory} in ${selectedYear} goes to ${winnerData[0].name} for the film ${winnerData[0].film}!`;
 
             console.log(winner);

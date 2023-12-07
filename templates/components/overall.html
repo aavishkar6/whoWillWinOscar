@@ -8,7 +8,7 @@
     <body>
 
         <div>
-            <h1>Who Won the Oscar in </h1>
+            <h1 id="whoWon">Who Won the Oscar in </h1>
             <select id="oscar_winner_date">
                 <option value=" "> </option>
                 {% for value in range %}
@@ -24,8 +24,11 @@
                     <option value="{{ category }}">{{ category }}</option>
                 {% endfor %}
             </select>
-            <br><br>
             
+            <div id="winnerdata">
+
+            </div>
+
             <div id = "winner">
 
             </div>
@@ -57,10 +60,10 @@
             <input type="radio" name="rated" value="Winner" checked="checked">Winners<br>
             <input type="radio" name="rated" value="Nominee">Nominees<br>
             
-            
             <div style="width: 1200px; height: 900px;">
                 <canvas id="bestRated"></canvas>
             </div>
+
         </div>
 
         <div>
@@ -76,16 +79,18 @@
         </div>
 
         <div>
-            <h1>Correlation Analysis.</h1>
+            <h1>most nominations by genres</h1>
         </div>
 
         <div>
-            <h1>most nominations by genres</h1>
+            <h1> Is the oscar winner always the highest rated movie ? </h1>
         </div>
 
         <div>
             <h1>highest box office collection</h1>
         </div>
+
+        
 
         
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

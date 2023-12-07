@@ -15,7 +15,8 @@ from db import (
 from utils import (
     getMovie,
     getGenreFromId,
-    getSimilarMovies
+    getSimilarMovies,
+    getAddData
 )
 
 #initialize flask app
@@ -51,10 +52,6 @@ def specific():
     
     return "<h1>SPECIFIC</h1>"
 
-# This will be the route for visualizing predictions that we received from the model.
-@app.route('/prediction')
-def prediction():
-    return render_template('components/prediction.html')
 
 # Search route for searchin movies.
 @app.route('/search', methods=['GET', 'POST'])
@@ -82,6 +79,15 @@ def similarity():
     """
 
     return render_template('components/similarity.html')
+
+# Route for advanced data analysis.
+@app.route('/analysis')
+def analysis():
+    return render_template('components/analysis.html')
+# This will be the route for visualizing predictions that we received from the model.
+@app.route('/prediction')
+def prediction():
+    return render_template('components/prediction.html')
 
 
 @app.route('/about')
@@ -128,7 +134,7 @@ def nominee():
     sql_query = f"SELECT year_awarded as year, count(distinct(film)) as count FROM public.ag8298_oscar_general where category=\"{category}\" group by year_awarded;"
     data = get_data(engine, sql_query)
     print(data)
-    print(type(data))
+
     return data.to_json(orient='records')
 
 
@@ -143,7 +149,18 @@ def winner():
     if (year and category):
         sql_query = f"SELECT * FROM public.ag8298_oscar_general where year_awarded = \"{year}\" and winner =\"True\" and category=\"{category}\";"
         data = get_data(engine, sql_query)
-        # print(data)
+
+        # sql_query2 = f"SELECT * FROM public.ag8298_oscar_detailed where film=\"{data.film[0]}\";"
+        # additional_data = get_data(engine, sql_query2)
+        # print(additional_data)
+
+        print('data from general is ', data)
+        print('data from general is ', data.film[0])
+        # print('data from detailed is ', additional_data)
+
+        # if ( category == "BEST PICTURE"):
+        #     additional_data = getAddData(additional_data.id_imdb[0])
+
         return data.to_json(orient='records')
     
 
@@ -160,7 +177,6 @@ def best_rated_oscar_movies():
         sql_query = f"SELECT film, rate FROM public.ag8298_oscar_detailed where position=\"{category}\" order by rate desc limit 15;"
         data = get_data(engine, sql_query)
 
-    print(data)
     return data.to_json(orient='records')
 
 
@@ -177,7 +193,7 @@ def highest_budget_movie():
         data = get_data(engine, sql_query)
 
     data = get_data(engine, sql_query)
-    print(data)
+
     return data.to_json(orient='records')
 
 

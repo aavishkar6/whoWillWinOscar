@@ -1,0 +1,39 @@
+body {
+    background-color: #333; /* Black background */
+color: #fff; /* White text */
+}
+
+.menu {
+background-color: #444; /* Slightly lighter black for the menu */
+padding: 20px;
+}
+
+.menu h1 {
+font-size: 4rem; /* Larger font size for the header */
+margin-bottom: 30px;
+text-align: center;
+font-family: 'Lucida Handwriting', cursive, monospace;
+
+}
+
+.menu a {
+color: #fff; /* White text for links */
+text-decoration: none; /* No underline */
+font-size: 40px;
+display: block; /* Each link is a block */
+margin: 10px 0; /* Margin for spacing */
+padding: 10px; /* Padding for spacing */
+transition: all 0.3s ease-in-out; /* Transition for hover effect */
+}
+
+.menu a:hover {
+padding-left: 20px; /* Move text to the right on hover */
+background-color: #555; /* Change background color on hover */
+border-radius: 5px; /* Rounded corners on hover */
+}
+
+@media (max-width: 768px) {
+.menu h1 {
+font-size: 1.5rem; /* Smaller font size for smaller screens */
+}
+}
