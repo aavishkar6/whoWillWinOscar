@@ -6,8 +6,9 @@ async function main() {
     setupEventListeners();
     initializeBestRatedOscarMovie();
     initializeHighestBudgetOscarMovie();
-
     // handle radio button listening
+
+    
     
 
 }
@@ -48,11 +49,12 @@ async function handleSelectChange() {
             console.log('Winner Data:', winnerData);
 
             const winner = document.getElementById('winnerdata');
+            winner.style.display = 'block';
             winner.innerHTML = '';
             
             const val = document.createElement('p');
             val.setAttribute('class', 'pwinner');
-            val.textContent = `Oscar for ${selectedCategory} in ${selectedYear} goes to ${winnerData[0].name} for the film ${winnerData[0].film}!`;
+            val.textContent = `Oscar for ${selectedCategory} in ${selectedYear} goes to ${winnerData.name} for the film ${winnerData.film}!`;
 
             console.log(winner);
 
@@ -276,12 +278,12 @@ function createBarChart(labels, data, title, elementId ) {
                 label: title,
                 data: data,
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)'
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
                 ],
                 borderColor: [
                     'rgba(255, 99, 132, 1)',

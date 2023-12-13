@@ -16,6 +16,7 @@ def getMovie( movie ):
     .get(f"https://api.themoviedb.org/3/search/movie?query={movie}&api_key={apiKey}")
     .json()
     )
+    print(movies)
     
     return movies
 
@@ -56,8 +57,24 @@ def getAddData( imdb_id ):
         "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOThiNWFmYjQyNzNhYTFiNTU1MmE1YjkxMDcxYzFlNiIsInN1YiI6IjYzZjY2OGUwNjljNzBmMDA4MjIxN2FlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R2oKaK7HGt_aDFwA48zNJFIlGu61lU_eV6HHJgBhJw8"
     }
 
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers).json()
 
-    print(response.text)
 
-    return response.json()
+    return response
+
+def getCastData ( id ) :
+    
+    url = f"https://api.themoviedb.org/3/movie/{id}/credits?language=en-US"
+    
+    headers = {
+        "accept": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOThiNWFmYjQyNzNhYTFiNTU1MmE1YjkxMDcxYzFlNiIsInN1YiI6IjYzZjY2OGUwNjljNzBmMDA4MjIxN2FlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R2oKaK7HGt_aDFwA48zNJFIlGu61lU_eV6HHJgBhJw8"
+    }
+    
+    response = requests.get(url, headers=headers).json()
+
+    actors = []
+    for cast in response['cast']:
+        actors.append(cast['name'])
+
+    return actors[:5]

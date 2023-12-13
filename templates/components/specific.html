@@ -1,0 +1,98 @@
+{% extends 'layouts/layout.html' %}
+
+{% block title %}
+Specific Year
+{% endblock %}
+
+{% block head %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/specific.css">
+    <!-- <script src="/static/script/homePage.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+{% endblock %}
+
+{% block content %}
+    <!-- Has to have stuff like  -->
+
+    <!-- 1. Information about oscar winner and nominees. Very detailed. -->
+
+    <!-- 2. Ratings of osar winners and nominees -->
+
+    <!-- 3. Budget of oscar winner and nominees -->
+
+    <!-- 4. Country of origin for the movie and nominees. -->
+
+    <!-- 5. Genres of the movies on that given year -->
+
+    <div>
+        <h1>Get visualization for specific year</h1>
+        <form action="/specific", method="GET">
+            <select name="year">
+                <option value="">Select Year </option>
+                {% for value in year %}
+                    <option value="{{ value }}">{{ value }}</option>
+                {% endfor %}
+            </select>
+            <input type="submit" value=" Drop visualizations">
+        </form>
+        
+    </div>
+
+    <div style="width: 1500px; height: 500px;">
+        <canvas id="ratingsChart" width="500" height="500"></canvas>
+    </div>
+
+    <div style="width: 1500px; height: 500px;">
+        <canvas id="budgetChart" width="500" height="500"></canvas>
+    </div>
+
+    <div style="width: 1500px; height: 500px;">
+        <canvas id="genreChart" width="500" height="500"></canvas>
+    </div>
+
+    <div style="width: 1500px; height: 500px;">
+        <canvas id="CountryChart" width="500" height="500"></canvas>
+    </div>
+    
+    
+
+    <script>
+        const ctx = document.getElementById('ratingsChart').getContext('2d');
+    
+        // Convert the Flask/Jinja2 variable to a JSON string, then parse it in JavaScript
+        const chartData = JSON.parse('{{ ratings | tojson | safe }}');
+    
+        const myChart = new Chart(ctx, chartData);
+
+        // --------------------------------------------------------
+        const ctx1 = document.getElementById('budgetChart').getContext('2d');
+
+        const chartData1 = JSON.parse('{{ budget | tojson | safe }}');
+
+        const myChart1 = new Chart(ctx1, chartData1);
+
+        // --------------------------------------------------------
+
+        const ctx2 = document.getElementById('genreChart').getContext('2d');
+
+        const chartData2 = JSON.parse('{{ genres | tojson | safe }}');
+
+        const myChart2 = new Chart(ctx2, chartData2);
+
+        // --------------------------------------------------------
+
+        const ctx3 = document.getElementById('CountryChart').getContext('2d');
+
+        const chartData3 = JSON.parse('{{ country | tojson | safe }}');
+
+        const myChart3 = new Chart(ctx3, chartData3);
+
+        // --------------------------------------------------------
+
+    </script>
+    
+{% endblock %}

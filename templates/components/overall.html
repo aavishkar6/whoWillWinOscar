@@ -3,7 +3,7 @@
     <head>
         <title>VISUALIZE</title>
         <link rel="stylesheet" href="/static/css/overall.css">
-        
+
     </head>
     <body>
 
@@ -29,9 +29,19 @@
 
             </div>
 
+           
             <div id = "winner">
-
+                <div class="movie-card">
+                    <img src="https://image.tmdb.org/t/p/original" alt="Movie Poster" class="movie-poster">
+                    <div class="movie-details">
+                        <h2 class="movie-title"></h2>
+                        <p class="movie-genre"></p>
+                        <p class="movie-rating"></p>
+                        <p class="movie-description"></p>
+                    </div>
+                </div>
             </div>
+        
             
 
         </div>
@@ -57,10 +67,10 @@
             
             <h1>best rated oscar movie.</h1>
             
-            <input type="radio" name="rated" value="Winner" checked="checked">Winners<br>
-            <input type="radio" name="rated" value="Nominee">Nominees<br>
+            <input class="radio" type="radio" name="rated" value="Winner" checked="checked">Winners<br>
+            <input class="radio" type="radio" name="rated" value="Nominee">Nominees<br>
             
-            <div style="width: 1200px; height: 900px;">
+            <div class = "chart" style="width: 1200px; height: 900px;">
                 <canvas id="bestRated"></canvas>
             </div>
 
@@ -68,33 +78,58 @@
 
         <div>
             
-            <h1> Oscar Movies with the highest Budget</h1>
+            <h1> Highest budget for nominees and winners</h1>
             
-            <input type="radio" name="budget" value="Winner" checked="checked">Winners<br>
-            <input type="radio" name="budget" value="Nominee">Nominees<br>
+            <input class="radio" type="radio" name="budget" value="Winner" checked="checked">Winners<br>
             
-            <div style="width: 1200px; height: 900px;">
+            <input class="radio" type="radio" name="budget" value="Nominee">Nominees<br>
+            
+            <div class = "chart" style="width: 1200px; height: 900px;">
                 <canvas id="highBudget"></canvas>
             </div>
         </div>
 
         <div>
-            <h1>most nominations by genres</h1>
+            <h1>What genre of movies are the ones most nominated ? </h1>
+            <div class = "chart" style="width: 1200px; height: 900px;">
+                <canvas id="genreChart"></canvas>
+            </div>
         </div>
 
         <div>
             <h1> Is the oscar winner always the highest rated movie ? </h1>
+            <div class = "chart" style="width: 1200px; height: 900px;">
+                <canvas id="nominationChart"></canvas>
+            </div>
         </div>
 
         <div>
             <h1>highest box office collection</h1>
+            
         </div>
-
-        
 
         
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="/static/script/overall.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+
+        const ctx2 = document.getElementById('genreChart').getContext('2d');
+
+        const chartData2 = JSON.parse('{{ genres | tojson | safe }}');
+
+        const myChart2 = new Chart(ctx2, chartData2);
+
+        // --------------------------------------------------------
+
+        const ctx3 = document.getElementById('nominationChart').getContext('2d');
+
+        const chartData3 = JSON.parse('{{ nomination | tojson | safe }}');
+
+        const myChart3 = new Chart(ctx3, chartData3);
+
+
+    </script>
 
     </body>
 </html>

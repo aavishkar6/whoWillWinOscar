@@ -21,6 +21,10 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+#similarity h3{
+    color: white;
+}
+
 p {
     font-size: 1.5em;
     margin-bottom: 1em;

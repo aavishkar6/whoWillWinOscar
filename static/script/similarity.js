@@ -8,13 +8,37 @@ function main() {
 
 }
 
-function findSimilarity() {
+async function findSimilarity() {
+
+
+    document.getElementById('similarityh1').innerHTML = 'Calculating...';
 
     const movie = document.getElementsByClassName('movie');
     const movie1 = movie[0].value;
     const movie2 = movie[1].value;
 
-    console.log(movie1, movie2);
+    const cosineSimilarity = await getCosineSimilarity(movie1, movie2);
+
+    document.getElementById('similarityh1').innerHTML = `The similarity between ${movie1} and ${movie2} is ${cosineSimilarity}`;
+
+}
+
+async function getCosineSimilarity(movie1, movie2) {
+
+    const endpoint = `/api/movie-similarity?movie1=${encodeURIComponent(movie1)}&movie2=${encodeURIComponent(movie2)}`;
+    const response = await fetch(endpoint);
+
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+    const result = await response.json();
+
+    console.log(result);
+
+    return result.similarity;
+
+    
+
 
 }
 
