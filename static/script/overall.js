@@ -45,21 +45,40 @@ async function handleSelectChange() {
         console.log('Selected Category:', selectedCategory);
 
         if (selectedYear !=" " && selectedCategory !=" ") {
-            const winnerData = await getOscarWinnerData(selectedYear, selectedCategory);
-            console.log('Winner Data:', winnerData);
+            try {
+                const winnerData = await getOscarWinnerData(selectedYear, selectedCategory);
+                console.log('Winner Data:', winnerData);
 
-            const winner = document.getElementById('winnerdata');
-            winner.style.display = 'block';
-            winner.innerHTML = '';
-            
-            const val = document.createElement('p');
-            val.setAttribute('class', 'pwinner');
-            val.textContent = `Oscar for ${selectedCategory} in ${selectedYear} goes to ${winnerData.name} for the film ${winnerData.film}!`;
+                const winner = document.getElementById('winnerdata');
+                winner.style.display = 'inline-block';
+                winner.innerHTML = '';
+                
+                console.log('data is ', JSON.parse(winnerData['data']))
+                data = JSON.parse(winnerData['data'])
 
-            console.log(winner);
+                const val = document.createElement('p');
+                val.setAttribute('class', 'pwinner');
+                val.textContent = `Oscar for ${selectedCategory.toLowerCase()} in ${selectedYear} goes to ${data[0].name} for the film ${data[0].film}!`;
 
-            winner.appendChild(val);
+                // const imagediv = document.getElementsById('image')
+                // imagediv.style.display = 'block';
+                const img = document.getElementsByClassName('movie-poster')[0]
+                img.src = `https://image.tmdb.org/t/p/original${winnerData.img}`
+                img.alt = data[0].name;
 
+                console.log(winner);
+
+                winner.appendChild(val);
+            } catch ( e ){
+                winner.innerHTML = ''
+                const val = document.createElement('p');
+                val.setAttribute('class', 'pwinner');
+                val.textContent = `Sorry, it seems like the oscar for the given award doesn't exist for this specific year`;
+
+                console.log('erro is ', e)
+
+                winner.appendChild(val)
+            }
             // Update UI with winnerData
         }
     } catch (error) {

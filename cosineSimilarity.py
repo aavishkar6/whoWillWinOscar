@@ -7,6 +7,9 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
+# nltk.download('stopwords')
+# nltk.download('punkt')
+
 from utils import (
     getAddData,
     getGenreFromId,
@@ -71,8 +74,7 @@ def processtext( movie ) :
     return text_preprocessing(str)
 
 def text_preprocessing(str):
-    nltk.download('stopwords')
-    nltk.download('punkt')
+    
     stop_words = stopwords.words('english')
 
     str = str.lower().strip()

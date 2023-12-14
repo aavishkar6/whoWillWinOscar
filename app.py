@@ -177,10 +177,19 @@ def winner():
         sql_query = f"SELECT * FROM public.ag8298_oscar_general where year_awarded = \"{year}\" and winner =\"True\" and category=\"{category}\";"
         data = get_data(engine, sql_query)
 
-        print( 'film is     ' ,data['film'][0] )
+        movie_info = getMovie(data['film'][0])['results'][0]
+
+        print( 'film is     ' ,data )
+
+        print( 'movie info is ', movie_info)
+
+        final_data = {
+            'data' : data.to_json(orient='records'),
+            'img' : movie_info['poster_path']
+        }
 
     
-    return data.to_json(orient='records')
+    return final_data
     
 
 @app.route('/api/best_rated_oscar_movies', methods = ['GET'])

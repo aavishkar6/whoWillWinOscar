@@ -16,7 +16,6 @@ def getMovie( movie ):
     .get(f"https://api.themoviedb.org/3/search/movie?query={movie}&api_key={apiKey}")
     .json()
     )
-    print(movies)
     
     return movies
 

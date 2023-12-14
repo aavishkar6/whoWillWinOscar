@@ -14,7 +14,7 @@ div {
     font-weight : bold;
     width : 100%;
     height : 100vh;
-    border : 1px dashed #ccc;
+    /* border : 1px dashed #ccc; */
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -22,12 +22,19 @@ div {
 }
 
 .pwinner {
+    /* display : inline-block; */
+    /* width : 600px; */
+    height : auto;
+    text-align: center;
     font-size: 30px;
-    color: seashell;
+    color: rgba(181, 186, 37, 0.673);
     font-family: Arial, sans-serif;
 
 }
-div #winnerdata {
+
+#winnerdata {
+    display : inline-block;
+    width : 900px;
     height : auto;
     display : none;
 }
@@ -57,58 +64,21 @@ select {
 
 #winner {
     border :rgba(181, 186, 37, 0.673) 5px solid;
-    display : none;
+    /* display : none; */
 }
 
-.movie-card {
-    color: #333;
-    max-width: 1500px; /* Adjust to your preference */
-    max-height: 300px;
-    display: flex;
-    border-radius: 8px;
-    overflow: hidden; /* Ensures the child image respects the border-radius */
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+#image {
+    width : 100%;
+    height : auto;
+    border-radius: 10px;
+}
   
-  .movie-poster {
-    width: 40%; /* Adjust to your preference */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensures the image covers the area nicely */
-  }
+.movie-poster {
+    width: 500px; /* or any other percentage */
+    height: 450px; /* maintains the aspect ratio */
+    display: block; /* To remove any extra space at the bottom */
+    object-fit: contain;
+}
+
   
-  .movie-details {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .movie-title {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .movie-genre,
-  .movie-rating,
-  .movie-description {
-    font-size: 0.9rem;
-    margin-bottom: 0.25rem;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .movie-card {
-      flex-direction: column;
-      max-width: 100%;
-    }
-  
-    .movie-poster {
-      width: 100%; /* Full width on smaller screens */
-    }
-  
-    .movie-details {
-      padding: 15px;
-    }
-  }
   
