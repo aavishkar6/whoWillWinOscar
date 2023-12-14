@@ -8,9 +8,6 @@ async function main() {
     initializeHighestBudgetOscarMovie();
     // handle radio button listening
 
-    
-    
-
 }
 
 function setupEventListeners() {

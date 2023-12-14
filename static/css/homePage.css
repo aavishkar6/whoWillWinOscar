@@ -1,12 +1,10 @@
 
-
-body {
-    background-color: #333; /* Black background */
-    color: #fff; /* White text */
-}
-
+/* body {
+    background-color: #333; 
+    color: #fff; 
+} */
 .menu {
-    background-color: #444; /* Slightly lighter black for the menu */
+    /* background-color: #444; Slightly lighter black for the menu */
     padding: 20px;
 }
 
@@ -14,12 +12,14 @@ body {
     font-size: 4rem; /* Larger font size for the header */
     margin-bottom: 30px;
     text-align: center;
-    font-family: 'Lucida Handwriting', cursive, monospace;
-
+    font-family: 'Limelight';font-size: 22px;
+    font-size : 60px;
+    color : #A68f42;
 }
 
 .menu a {
-    color: #fff; /* White text for links */
+    color: #A68f42; 
+
     text-decoration: none; /* No underline */
     font-size: 40px;
     display: block; /* Each link is a block */
@@ -30,12 +30,12 @@ body {
 
 .menu a:hover {
     padding-left: 20px; /* Move text to the right on hover */
-    background-color: #555; /* Change background color on hover */
+    /* background-color: #555;  */
     border-radius: 5px; /* Rounded corners on hover */
 }
 
 @media (max-width: 768px) {
-.menu h1 {
-    font-size: 1.5rem; /* Smaller font size for smaller screens */
-}
+    .menu h1 {
+        font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
 }

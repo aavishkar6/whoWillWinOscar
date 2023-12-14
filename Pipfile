@@ -16,6 +16,7 @@ python-levenshtein = "*"
 fuzzywuzzy = "*"
 scikit-learn = "*"
 nltk = "*"
+openai = "*"
 
 [dev-packages]
 

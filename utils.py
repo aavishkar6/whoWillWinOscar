@@ -80,7 +80,8 @@ def getCastData ( id ) :
     return actors[:5]
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
-    OPENAI_API_KEY = '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'
+    # OPENAI_API_KEY = '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'
+    OPENAI_API_KEY = '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'
     client = OpenAI(api_key=OPENAI_API_KEY)
 
     chat_completion = client.chat.completions.create(
@@ -122,10 +123,13 @@ def return_movie_sentiment(movie_name):
 
 
 def get_movie_data(movie_name):
-  api_key = '390b5cfbeebb1ba623c4041babe57de9'
+  # api_key = '390b5cfbeebb1ba623c4041babe57de9'
+  api_key = '398b5afb4273aa1b5552a5b91071c1e6'
+  # api_key = 
   search_url = f'https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={movie_name}'
   response = requests.get(search_url)
   data = response.json()
+  print(data)
   movie_id = data['results'][0]['id']
 
   details_url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&append_to_response=credits'
