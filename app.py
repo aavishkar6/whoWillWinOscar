@@ -228,7 +228,10 @@ def similarity_among_movies():
 
     return jsonify({'similarity': similar})
 
+@app.route('/diversity-analysis')
+def diversityAnalysis():
+    return render_template('components/graphs.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True, port = 5000)
-
