@@ -6,35 +6,13 @@ import matplotlib.pyplot as plt
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
 import ast
 from collections import Counter
+import os
 
-# import functions for reading and writing from the database
-from db import (
-    create_sql_engine,
-    get_data
-)
+from db import *
+from utils import *
+from cosineSimilarity import *
+from charts import *
 
-# import utility functions
-from utils import (
-    getMovie,
-    getGenreFromId,
-    getSimilarMovies,
-    getAddData
-)
-# import cosineSimilarity function
-from cosineSimilarity import (
-    getcosineSimilarity
-)
-# import chart generation functions 
-from charts import (
-    get_country_chart,
-    get_genres_chart,
-    get_budget_chart,
-    get_ratings_chart,
-    get_overall_genre_chart,
-    get_genre_numbers,
-    get_overall_nomination_chart
-
-)
 
 #initialize flask app
 def init_app():
@@ -73,11 +51,23 @@ def visualize():
                            categories = categories,
                            genres = genre_chart,
                            nomination = nomination_chart
-                           
                            )
+    
+#return diversity and social commentary scores for any movie
+@app.route('/social-commentary-score', methods=['GET', 'POST'])
+def social():
+    cast_score = ''
+    social_score = ''
+    if request.method == 'POST':
+        movie = request.form['movie']
+        cast_score = return_cast_diversity_score(movie)
+        social_score = return_movie_sentiment(movie)
+        # Now you can store 'user_word' in your desired location
+    return render_template('components/socialScore.html', message1=cast_score, message2=social_score)
 
 
-# this will be the route for visualizing specific year movie.
+
+#Oscar visualizations for a specific year
 @app.route('/specific')
 def specific():
     
@@ -99,7 +89,8 @@ def specific():
                         )
     
 
-# Search route for searchin movies.
+
+#Search for a specific movie
 @app.route('/search', methods=['GET', 'POST'])
 def search():
     # integrate the tmdb api to get the movies from the search.
@@ -113,7 +104,8 @@ def search():
     
     return render_template('components/search.html', movies= movies, search = args.get('movie') )
 
-# Search feature for movie similarity.
+
+#Search feature for movie similarity.
 @app.route('/similarity', methods=['GET', 'POST'])
 def similarity():
     """
@@ -126,7 +118,7 @@ def similarity():
 
     return render_template('components/similarity.html')
 
-# Route for advanced data analysis.
+#Advanced data analysis.
 @app.route('/analysis')
 def analysis():
     return render_template('components/analysis.html')
@@ -135,14 +127,13 @@ def analysis():
 def prediction():
     return render_template('components/prediction.html')
 
-
+#project description
 @app.route('/about')
 def about():
     return render_template('components/about.html')
 
 
 # API endpoints for getting the data from the database.
-
 @app.route('/get-movie-list', methods = ['POST'])
 def getMovielist():
     movie = request.get_json()
@@ -236,8 +227,6 @@ def similarity_among_movies():
     similar = getcosineSimilarity(movie1, movie2)
 
     return jsonify({'similarity': similar})
-
-
 
 
 if __name__ == '__main__':
